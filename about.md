@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Currently [teaching myself to program in 10 years](http://norvig.com/21-days.html).
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+I've worked at [DFKI](https://en.wikipedia.org/wiki/German_Research_Centre_for_Artificial_Intelligence) and [John Deere](https://en.wikipedia.org/wiki/John_Deere).
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I've been a Software Engineer, Integrator, Tech Lead and Independent Contributor in teams varying in size from 2-400.
+
+I've worked professionally on Mobile (iOS), Embedded (Windows, Linux), Web, Automation and Data Analysis.
+
+I'm proud of bootstrapping GitHub Enterprise at John Deere and bringing it to thousands of developers.
+
+I aspire to spend my career learning.
+

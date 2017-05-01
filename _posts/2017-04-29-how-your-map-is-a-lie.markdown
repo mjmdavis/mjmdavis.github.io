@@ -4,6 +4,9 @@ title:  "Every map is a lie."
 date:   2017-04-29 17:03:39 +0200
 categories: showing
 ---
+
+<link rel="import" href="{{ site.url }}/assets/bower/globe-map/globe-map.html">
+
 # How you lie with maps
 ## The World
 The world is round. Don't believe me? [Google says so](https://www.google.com/maps/@25.6150528,3.6591736,11928591m/data=!3m1!1e3)

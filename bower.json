@@ -1,0 +1,23 @@
+{
+  "name": "mjmdavis",
+  "homepage": "http://mjmdavis.com",
+  "authors": [
+    "mjmdavis <mjmdavis@gmail.com>"
+  ],
+  "description": "mjmdavis.com homepage",
+  "main": "",
+  "license": "GPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^1.9.1",
+    "d3": "^4.8.0",
+    "globe-map": "../polymer_globe/"
+  }
+}

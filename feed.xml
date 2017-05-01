@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-01T14:17:05+02:00</updated><id>http://localhost:4000/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">Every map is a lie.</title><link href="http://localhost:4000/showing/2017/04/29/how-your-map-is-a-lie.html" rel="alternate" type="text/html" title="Every map is a lie." /><published>2017-04-29T17:03:39+02:00</published><updated>2017-04-29T17:03:39+02:00</updated><id>http://localhost:4000/showing/2017/04/29/how-your-map-is-a-lie</id><content type="html" xml:base="http://localhost:4000/showing/2017/04/29/how-your-map-is-a-lie.html">&lt;link rel=&quot;import&quot; href=&quot;http://localhost:4000/assets/bower/globe-map/globe-map.html&quot; /&gt;
+
+&lt;h1 id=&quot;how-you-lie-with-maps&quot;&gt;How you lie with maps&lt;/h1&gt;
+&lt;h2 id=&quot;the-world&quot;&gt;The World&lt;/h2&gt;
+&lt;p&gt;The world is round. Don’t believe me? &lt;a href=&quot;https://www.google.com/maps/@25.6150528,3.6591736,11928591m/data=!3m1!1e3&quot;&gt;Google says so&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Let me show you the world.&lt;/p&gt;
+
+&lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; width=&quot;250&quot; height=&quot;250&quot;&gt;&lt;/globe-map&gt;
+
+&lt;p&gt;Round and wonderful. There’s Africa and Europe. You can see South America. If you look around a bit
+you can see what looks like it might be Canada… Hmm. OK, I’ll spin it around and show you the other side.&lt;/p&gt;
+
+&lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; rotation=&quot;[180,0,0]&quot; width=&quot;250&quot; height=&quot;250&quot;&gt;&lt;/globe-map&gt;
+
+&lt;p&gt;Not much better… OK, third time’s the charm…&lt;/p&gt;
+
+&lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; rotation=&quot;[90,0,0]&quot; width=&quot;250&quot; height=&quot;250&quot;&gt;&lt;/globe-map&gt;
+
+&lt;p&gt;Yes, here you see America, South America… where’s China? Let’s draw a few more!&lt;/p&gt;
+
+&lt;h3 id=&quot;i-present-you-the-world&quot;&gt;I present you… THE WORLD&lt;/h3&gt;
+&lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; rotation=&quot;[90,0,0]&quot; width=&quot;250&quot; height=&quot;250&quot;&gt;&lt;/globe-map&gt;
+&lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; rotation=&quot;[0,0,0]&quot; width=&quot;250&quot; height=&quot;250&quot;&gt;&lt;/globe-map&gt;
+&lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; rotation=&quot;[-90,0,0]&quot; width=&quot;250&quot; height=&quot;250&quot;&gt;&lt;/globe-map&gt;
+
+&lt;p&gt;I’m not sure about you but I’m feeling distinctly underwhelmed. Only the countries in the center are undistorted and I can’t see the whole map.
+People used to put this on spinning balls right?
+Let’s try that.&lt;/p&gt;
+
+&lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+
+&lt;p&gt;Fun! You can even spin it!&lt;/p&gt;
+
+&lt;p&gt;OK, but what if we want to see two places at once? Two globes! I know what you’re thinking. You’re thinking “Genius! Who doesn’t want two hulking great spheres on their desk, in in their pocket?! &lt;a href=&quot;http://www.bellerbyandco.com/&quot;&gt;I do!&lt;/a&gt; OK, while beautiful, they are a bit impractical.
+They’d have to be enormous to provide the accuracy we need for sailing the high seas or finding your way around the corner to buy some milk…&lt;/p&gt;
+
+&lt;p&gt;The pragmatist in me is thinking that it would be nice if I could put this on a piece of paper.
+Thin, light, you can roll it up, lay it out on a desk. Most practical!&lt;/p&gt;
+
+&lt;p&gt;Someone told me that a popular and good way of making a sphere flat was something called the Mercator Projection.&lt;/p&gt;
+
+&lt;globe-map projections=&quot;[&amp;quot;Mercator&amp;quot;]&quot;&gt;&lt;/globe-map&gt;
+
+&lt;p&gt;So, the whole world is visible :). Wow, Greenland looks relaly big though, and what’s the gigantic land mass at the bottom? Let’s put a globe next to it.&lt;/p&gt;
+
+&lt;globe-map projections=&quot;[&amp;quot;Orthographic&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+&lt;globe-map projections=&quot;[&amp;quot;Mercator&amp;quot;]&quot;&gt;&lt;/globe-map&gt;
+
+&lt;p&gt;Right. So that really big land mass at the bottom? It’s not nearly as big on the globe as on the flat map. Maybe we can add some indication of scale…&lt;/p&gt;
+
+&lt;p&gt;A Frenchman named Tissot came up with something fancy where he projected an infinitely small circle onto a map. This way he characterized local, small scale distortions.
+I’m more interested in distortion at the scale of the map I’m looking at. To characterize this I think we could draw circles on the globe and project them into our map.&lt;/p&gt;
+
+&lt;globe-map projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>

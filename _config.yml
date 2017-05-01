@@ -13,6 +13,9 @@ theme: minima
 gems:
     - jekyll-feed
       #     - jekyll-assets
+      #
+include:
+    - .nojekyll
 exclude:
     - Gemfile
     - Gemfile.lock

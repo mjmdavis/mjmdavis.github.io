@@ -4,3 +4,4 @@ _site
 *.swp
 *.lock
 *.swo
+.asset-cache

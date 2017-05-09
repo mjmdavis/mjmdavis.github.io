@@ -161,8 +161,26 @@ Thin, light, you can roll it up, lay it out on a desk. Most practical!</p>
 <p>A Frenchman named Tissot came up with something fancy where he projected an infinitely small circle onto a map. This way he characterized local, small scale distortions.
 I’m more interested in distortion at the scale of the map I’m looking at. To characterize this I think we could draw circles on the globe and project them into our map.</p>
 
-<globe-map projections="[&quot;Orthographic&quot;, &quot;Mercator&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
+<globe-map projections="[&quot;Orthographic&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
+<globe-map projections="[&quot;Mercator&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:false, &quot;ui_enabled&quot;:false}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
 
+<p>Play around with the globe a bit and get a feel for how the Mercator projection distorts area. You might have noticed that the circles drawn on the poles of the globe do not appear on the Mercator map… Well, they are <em>barely</em> visible, as thin lines at the top and bottom of the map. Why aren’t they visible? Well, the Mercator projection preserves the angle of intersecting lines and preserves shapes at small scale.</p>
+
+<p>To better understand the Mercator projection, we should first look at the Equirectangular projection.</p>
+
+<globe-map projections="[&quot;Equirectangular&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:false, &quot;ui_enabled&quot;:false}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
+
+<p>The Equirectangular projection is like dropping the spherical globe into a cylinder, making tiny holes at the poles and stretching the sphere out so the points at the poles become the radii at the top and bottom of the cylinder. Then you just slice the cylinder at the antimeridian and unroll it into a rectangle.</p>
+
+<p>Notice that the height of each circle is the same but the width changes as the map gets more stretched out near the poles. In fact, as you get to a pole, you have stretched a single point out into the entire width of the map! Infinite distortion.</p>
+
+<p>To remedy the horizontal stretching, the Mercator Projection stretches the globe out in the vertical direction an equal amount to the stretching in the vertical direction. This is good because it helps preserve the shape of small objects. It’s also great if you’re a sailor as you can draw a straight line on a Merctor map and if you sail along it, you will maintain a constant heading. Really useful for navigating a ship in the 1600s. In fact, Mercator was the name of a guy who sold maps. He described the map using this projection method as a “new and augmented description of Earth corrected for the use of sailors”. Today the Mercator projection is still used to navigate the high seas.</p>
+
+<globe-map projections="[&quot;Mercator&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:false, &quot;ui_enabled&quot;:false}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
+
+<h2 id="link-to-giant-mercator">link to giant mercator</h2>
+
+<p>When you’re</p>
 
   </div>
 

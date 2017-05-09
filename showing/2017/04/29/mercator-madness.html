@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>mjmdavis.com</title>
-  <meta name="description" content="A personal webpage.">
+  <title>Mercator Madness.</title>
+  <meta name="description" content="">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://mjmdavis.com/">
+  <link rel="canonical" href="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html">
   <link rel="alternate" type="application/rss+xml" title="mjmdavis.com" href="/feed.xml">
   
   
@@ -94,38 +94,43 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
-  
-  
-
-
-  <ul class="post-list">
-    
-      <li>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Mercator Madness.</h1>
+    <p class="post-meta">
+      <time datetime="2017-04-29T17:03:40+02:00" itemprop="datePublished">
         
-        <span class="post-meta">Apr 29, 2017</span>
+        Apr 29, 2017
+      </time>
+      </p>
+  </header>
 
-        <h2>
-          <a class="post-link" href="/showing/2017/04/29/mercator-madness.html">Mercator Madness.</a>
-        </h2>
-      </li>
-    
-      <li>
-        
-        <span class="post-meta">Apr 29, 2017</span>
+  <div class="post-content" itemprop="articleBody">
+    <link rel="import" href="http://mjmdavis.com/assets/bower/globe-map/globe-map.html" />
 
-        <h2>
-          <a class="post-link" href="/showing/2017/04/29/how-your-map-is-a-lie.html">Every map is a lie.</a>
-        </h2>
-      </li>
-    
-  </ul>
+<h1 id="mercator-madness">Mercator Madness</h1>
+<h2 id="what-if-i-told-you-that-you-arent-seeing-the-whole-map">What if I told you that you aren’t seeing the whole map?</h2>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p>Here is a Mercator map in a form you are familiar with. I have added 5˚ circles drawn on the surface of the planet. Each circle has a radius of around 555km.</p>
 
-</div>
+<globe-map projections="[&quot;Mercator&quot;]" width="800" height="800" config="{&quot;rotation&quot;:{&quot;enabled&quot;:false, &quot;ui_enabled&quot;:false}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
+
+<p>Here is a slightly different looking Mercator map. The only difference with the one above is that I have trimmed less of the top and bottom of the map off. On this one I have drawn 0.1˚ circles. Each of these circles has a radius of about 11km.</p>
+
+<p>This helps to illustrate the infinite nature of the Mercator projection. The red areas at the top and bottom are in fact the same red circles as on the rest of the map but drawn over the poles. They are streteched out to infinite proportions by the Mercator projection.</p>
+
+<p>All the circles on each respective map have the same radius and the same area on the spherical earth.</p>
+
+<canvas id="mercator-madness-canvas"></canvas>
+<script src="http://mjmdavis.com/scratch/mercator_madness.js">
+</script>
+
+
+  </div>
+
+  
+</article>
 
       </div>
     </main>

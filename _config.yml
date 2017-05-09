@@ -9,6 +9,8 @@ github_username: mjmdavis
 
 # Build settings
 markdown: kramdown
+kramdown:
+    parse_block_html: true
 theme: minima
 gems:
     - jekyll-feed

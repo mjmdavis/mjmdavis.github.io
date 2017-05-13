@@ -12,7 +12,6 @@ canvas = d3.select('#mercator-madness-canvas')
     .style('width', String(width)+'px')
     .style('height', String(height)+'px')
     .each(function(){
-        debugger;
         this.getContext('2d').scale(2,2);
     });
 

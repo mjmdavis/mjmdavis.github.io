@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2017-05-09T12:34:41+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">Mercator Madness.</title><link href="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html" rel="alternate" type="text/html" title="Mercator Madness." /><published>2017-04-29T17:03:40+02:00</published><updated>2017-04-29T17:03:40+02:00</updated><id>http://mjmdavis.com/showing/2017/04/29/mercator-madness</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html">&lt;link rel=&quot;import&quot; href=&quot;http://mjmdavis.com/assets/bower/globe-map/globe-map.html&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2017-05-13T18:45:27+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">Mercator Madness.</title><link href="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html" rel="alternate" type="text/html" title="Mercator Madness." /><published>2017-04-29T17:03:40+02:00</published><updated>2017-04-29T17:03:40+02:00</updated><id>http://mjmdavis.com/showing/2017/04/29/mercator-madness</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html">&lt;link rel=&quot;import&quot; href=&quot;http://mjmdavis.com/assets/bower/globe-map/globe-map.html&quot; /&gt;
 
 &lt;h1 id=&quot;mercator-madness&quot;&gt;Mercator Madness&lt;/h1&gt;
 &lt;h2 id=&quot;what-if-i-told-you-that-you-arent-seeing-the-whole-map&quot;&gt;What if I told you that you aren’t seeing the whole map?&lt;/h2&gt;
 
 &lt;p&gt;Here is a Mercator map in a form you are familiar with. I have added 5˚ circles drawn on the surface of the planet. Each circle has a radius of around 555km.&lt;/p&gt;
 
-&lt;globe-map projections=&quot;[&amp;quot;Mercator&amp;quot;]&quot; width=&quot;800&quot; height=&quot;800&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:false, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+&lt;globe-map projections=&quot;[&amp;quot;Orthographic&amp;quot;]&quot; width=&quot;360&quot; height=&quot;360&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+&lt;globe-map projections=&quot;[&amp;quot;Mercator&amp;quot;]&quot; width=&quot;360&quot; height=&quot;360&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:false, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
 
 &lt;p&gt;Here is a slightly different looking Mercator map. The only difference with the one above is that I have trimmed less of the top and bottom of the map off. On this one I have drawn 0.1˚ circles. Each of these circles has a radius of about 11km.&lt;/p&gt;
 
-&lt;p&gt;This helps to illustrate the infinite nature of the Mercator projection. The red areas at the top and bottom are in fact the same red circles as on the rest of the map but drawn over the poles. They are streteched out to infinite proportions by the Mercator projection.&lt;/p&gt;
+&lt;p&gt;This helps to illustrate the infinite scaling of the Mercator projection. The red areas at the top and bottom are in fact the same red circles as on the rest of the map but drawn over the poles. They are streteched out to infinite proportions by the Mercator projection.&lt;/p&gt;
 
 &lt;p&gt;All the circles on each respective map have the same radius and the same area on the spherical earth.&lt;/p&gt;
 
@@ -37,19 +38,21 @@ you can see what looks like it might be Canada… Hmm. OK, I’ll spin it around
 &lt;p&gt;Yes, here you see America, South America… where’s China? Let’s draw a few more!&lt;/p&gt;
 
 &lt;h3 id=&quot;i-present-you-the-world&quot;&gt;I present you… THE WORLD&lt;/h3&gt;
-&lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; rotation=&quot;[90,0,0]&quot; width=&quot;250&quot; height=&quot;250&quot;&gt;&lt;/globe-map&gt;
-&lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; rotation=&quot;[0,0,0]&quot; width=&quot;250&quot; height=&quot;250&quot;&gt;&lt;/globe-map&gt;
-&lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; rotation=&quot;[-90,0,0]&quot; width=&quot;250&quot; height=&quot;250&quot;&gt;&lt;/globe-map&gt;
+&lt;div&gt;
+  &lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; rotation=&quot;[90,0,0]&quot; width=&quot;240&quot; height=&quot;240&quot;&gt;&lt;/globe-map&gt;
+  &lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; rotation=&quot;[0,0,0]&quot; width=&quot;240&quot; height=&quot;240&quot;&gt;&lt;/globe-map&gt;
+  &lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; rotation=&quot;[-90,0,0]&quot; width=&quot;240&quot; height=&quot;240&quot;&gt;&lt;/globe-map&gt;
+&lt;/div&gt;
 
 &lt;p&gt;I’m not sure about you but I’m feeling distinctly underwhelmed. Only the countries in the center are undistorted and I can’t see the whole map.
 People used to put this on spinning balls right?
 Let’s try that.&lt;/p&gt;
 
-&lt;globe-map projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+&lt;globe-map width=&quot;740&quot; projections=&quot;[&amp;quot;OrthographicZoomed&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
 
 &lt;p&gt;Fun! You can even spin it!&lt;/p&gt;
 
-&lt;p&gt;OK, but what if we want to see two places at once? Two globes! I know what you’re thinking. You’re thinking “Genius! Who doesn’t want two hulking great spheres on their desk, in in their pocket?! &lt;a href=&quot;http://www.bellerbyandco.com/&quot;&gt;I do!&lt;/a&gt; OK, while beautiful, they are a bit impractical.
+&lt;p&gt;But what if we want to see two places at once? Two globes! I know what you’re thinking. You’re thinking “Genius! Who doesn’t want two hulking great spheres on their desk, in in their pocket?! &lt;a href=&quot;http://www.bellerbyandco.com/&quot;&gt;I do!&lt;/a&gt; While beautiful, they are a bit impractical.
 They’d have to be enormous to provide the accuracy we need for sailing the high seas or finding your way around the corner to buy some milk…&lt;/p&gt;
 
 &lt;p&gt;The pragmatist in me is thinking that it would be nice if I could put this on a piece of paper.
@@ -57,35 +60,88 @@ Thin, light, you can roll it up, lay it out on a desk. Most practical!&lt;/p&gt;
 
 &lt;p&gt;Someone told me that a popular and good way of making a sphere flat was something called the Mercator Projection.&lt;/p&gt;
 
-&lt;globe-map projections=&quot;[&amp;quot;Mercator&amp;quot;]&quot;&gt;&lt;/globe-map&gt;
+&lt;globe-map width=&quot;740&quot; height=&quot;740&quot; projections=&quot;[&amp;quot;Mercator&amp;quot;]&quot;&gt;&lt;/globe-map&gt;
 
 &lt;p&gt;So, the whole world is visible :). Wow, Greenland looks relaly big though, and what’s the gigantic land mass at the bottom? Let’s put a globe next to it.&lt;/p&gt;
 
-&lt;globe-map projections=&quot;[&amp;quot;Orthographic&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
-&lt;globe-map projections=&quot;[&amp;quot;Mercator&amp;quot;]&quot;&gt;&lt;/globe-map&gt;
+&lt;div&gt;
+  &lt;globe-map projections=&quot;[&amp;quot;Orthographic&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}}&quot; width=&quot;360&quot;&gt;&lt;/globe-map&gt;
+  &lt;globe-map projections=&quot;[&amp;quot;Mercator&amp;quot;]&quot; width=&quot;360&quot;&gt;&lt;/globe-map&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Right. So that really big land mass at the bottom? It’s not nearly as big on the globe as on the flat map. Maybe we can add some indication of scale…&lt;/p&gt;
+&lt;p&gt;Right. So that really big land mass at the bottom? It’s not nearly as big on the globe as on the flat map. Maybe we can add some indication of scale better compare.&lt;/p&gt;
 
-&lt;p&gt;A Frenchman named Tissot came up with something fancy where he projected an infinitely small circle onto a map. This way he characterized local, small scale distortions.
+&lt;p&gt;A Frenchman named Tissot came up with &lt;a href=&quot;https://en.wikipedia.org/wiki/Tissot%27s_indicatrix&quot;&gt;something fancy&lt;/a&gt;. The general idea was to characterize local distortions; To show you what a small circle would look like when moved from the globe to the map.
 I’m more interested in distortion at the scale of the map I’m looking at. To characterize this I think we could draw circles on the globe and project them into our map.&lt;/p&gt;
 
-&lt;globe-map projections=&quot;[&amp;quot;Orthographic&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
-&lt;globe-map projections=&quot;[&amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:false, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+&lt;div&gt;
+  &lt;globe-map projections=&quot;[&amp;quot;Orthographic&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot; width=&quot;360&quot;&gt;&lt;/globe-map&gt;
+  &lt;globe-map projections=&quot;[&amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:false, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot; width=&quot;360&quot;&gt;&lt;/globe-map&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Play around with the globe a bit and get a feel for how the Mercator projection distorts area. You might have noticed that the circles drawn on the poles of the globe do not appear on the Mercator map… Well, they are &lt;em&gt;barely&lt;/em&gt; visible, as thin lines at the top and bottom of the map. Why aren’t they visible? Well, the Mercator projection preserves the angle of intersecting lines and preserves shapes at small scale.&lt;/p&gt;
 
 &lt;p&gt;To better understand the Mercator projection, we should first look at the Equirectangular projection.&lt;/p&gt;
 
-&lt;globe-map projections=&quot;[&amp;quot;Equirectangular&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:false, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+&lt;globe-map projections=&quot;[&amp;quot;Equirectangular&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:false, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot; width=&quot;740&quot;&gt;&lt;/globe-map&gt;
 
-&lt;p&gt;The Equirectangular projection is like dropping the spherical globe into a cylinder, making tiny holes at the poles and stretching the sphere out so the points at the poles become the radii at the top and bottom of the cylinder. Then you just slice the cylinder at the antimeridian and unroll it into a rectangle.&lt;/p&gt;
+&lt;p&gt;And how it relates to the globe and the Mercator projection.&lt;/p&gt;
 
-&lt;p&gt;Notice that the height of each circle is the same but the width changes as the map gets more stretched out near the poles. In fact, as you get to a pole, you have stretched a single point out into the entire width of the map! Infinite distortion.&lt;/p&gt;
+&lt;div&gt;
+  &lt;globe-map width=&quot;240&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:false, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+  &lt;globe-map width=&quot;240&quot; projections=&quot;[&amp;quot;Equirectangular&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:false, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+  &lt;globe-map width=&quot;240&quot; projections=&quot;[&amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:false, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The Equirectangular projection is like dropping the spherical globe into a cylinder, making tiny holes at the poles and stretching the sphere out so the points at the poles wrap around the top and bottom of the cylinder. Then you just slice the cylinder at the &lt;a href=&quot;https://en.wikipedia.org/wiki/180th_meridian&quot;&gt;antimeridian&lt;/a&gt; and unroll it into a rectangle.&lt;/p&gt;
+
+&lt;p&gt;Notice that on the Equirectangular map, the height of each circle is the same but the width changes as the map gets more stretched out near the poles. In fact, as you get to a pole, you have stretched a single point out into the entire width of the map! &lt;a href=&quot;http://mjmdavis.com/showing/2017/04/29/mercator-madness.html&quot;&gt;Infinite distortion&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;To remedy the horizontal stretching, the Mercator Projection stretches the globe out in the vertical direction an equal amount to the stretching in the vertical direction. This is good because it helps preserve the shape of small objects. It’s also great if you’re a sailor as you can draw a straight line on a Merctor map and if you sail along it, you will maintain a constant heading. Really useful for navigating a ship in the 1600s. In fact, Mercator was the name of a guy who sold maps. He described the map using this projection method as a “new and augmented description of Earth corrected for the use of sailors”. Today the Mercator projection is still used to navigate the high seas.&lt;/p&gt;
 
-&lt;globe-map projections=&quot;[&amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:false, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+&lt;p&gt;You can see the effect of this when using Google Maps. If you move north or south from the equator and stay at the zoom level, objects will become larger 😯.&lt;/p&gt;
 
-&lt;h2 id=&quot;link-to-giant-mercator&quot;&gt;link to giant mercator&lt;/h2&gt;
+&lt;p&gt;Below are embedded maps of Singapore and Anchorage, Alaska at the same zoom level. Notice how the cars in Alaska are bigger than the ones in Singapore because they’ve been stretched by the Mercator projection.&lt;/p&gt;
 
-&lt;p&gt;When you’re&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;iframe width=&quot;350&quot; height=&quot;350&quot; src=&quot;https://www.google.com/maps/embed/v1/view?center=1.3479927,103.9684012
+&amp;amp;zoom=19
+&amp;amp;maptype=satellite
+&amp;amp;key=AIzaSyABWm9A528mgx9YlY36IeNAoN2RmcmedmM&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;350&quot; height=&quot;350&quot; src=&quot;https://www.google.com/maps/embed/v1/view?center=61.2143189,-149.8992335
+&amp;amp;zoom=19
+&amp;amp;maptype=satellite
+&amp;amp;key=AIzaSyABWm9A528mgx9YlY36IeNAoN2RmcmedmM&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tldr&quot;&gt;TL;DR.&lt;/h3&gt;
+
+&lt;p&gt;Every map you see in 2D is some kind of tradeoff of different types of distortion. It’s not always immediately obvious what tradeoffs are being made because we have been conditioned to seeing the world as a 2D projection of a 3D object. i.e. A globe unrolled onto a piece of paper.&lt;/p&gt;
+
+&lt;p&gt;Below is a tool that aims to help humans quickly gain an intuitive understanding for how a particular map projection distorts the globe.&lt;/p&gt;
+
+&lt;h3 id=&quot;playing-with-projections&quot;&gt;Playing with Projections&lt;/h3&gt;
+
+&lt;p&gt;To help my understanding of how projections distort the globe I came up with a little tool that allows you to rotate a globe and see how the rotated globe translates into a particular map. Here is that tool comparing the globe to the Mercator projection. You can &lt;strong&gt;drag&lt;/strong&gt; either map to rotate the earth and &lt;strong&gt;reset&lt;/strong&gt; the rotation with the button in the top left.&lt;/p&gt;
+
+&lt;globe-map width=&quot;360&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+
+&lt;p&gt;This representation helps us understand how projections distort area. Projections also distort shape. This view illustrates the distortion of shape.&lt;/p&gt;
+
+&lt;globe-map width=&quot;360&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;geodesic_graticule&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+
+&lt;p&gt;The idea is to split the globe up into similarly shaped and sized tiles. Each tile has similar area and shape on the globe so it’s easy to see the distortion on the map. Traditional graticules are neither similar in size or shape on a globe and can be considered misleading.&lt;/p&gt;
+
+&lt;p&gt;In fact, both representation give you an idea of how a map projection distorts shape and area.&lt;/p&gt;
+
+&lt;p&gt;Armed with these weapons you can fight back against the tyrannical cartographers of times gone by. Turn your nose up in disgust at density metrics on Mercator maps and make up your own mind which projection you like best.&lt;/p&gt;
+
+&lt;p&gt;My favorite is below, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Goode_homolosine_projection&quot;&gt;Goode Homolosine&lt;/a&gt;.&lt;br /&gt;
+It is indeed very Goode; an equal-area projection, it preserves area and area constant across the map. It also, in my opinion, does a good job of minimising distortion thanks to it’s interruptions (cuts).&lt;/p&gt;
+
+&lt;globe-map width=&quot;740&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;InterruptedHomolosine&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;geodesic_graticule&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+
+&lt;h3 id=&quot;your-turn&quot;&gt;Your turn&lt;/h3&gt;
+
+&lt;p&gt;Now, feel free to use this tool to play around and get a better understanding of map projections and maybe the world we live on.&lt;/p&gt;
+
+&lt;globe-map width=&quot;740&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;InterruptedHomolosine&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;geodesic_graticule&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>

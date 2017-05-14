@@ -7,6 +7,7 @@ categories: showing
 
 <link rel="import" href="{{ site.url }}/assets/bower/globe-map/globe-map.html">
 <script src="{{ site.url }}/assets/bower/d3/d3.min.js"></script>
+<script src="{{ site.url }}/assets/bower/topojson/topojson.min.js"></script>
 
 # Mercator Madness
 ## What if I told you that you aren't seeing the whole map?

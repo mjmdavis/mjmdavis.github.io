@@ -18,6 +18,7 @@
   "dependencies": {
     "polymer": "^1.9.1",
     "d3": "^4.8.0",
-    "globe-map": "../polymer_globe/"
+    "globe-map": "../polymer_globe/",
+    "topojson": "^3.0.0"
   }
 }

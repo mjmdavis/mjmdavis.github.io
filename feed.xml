@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2017-05-14T09:21:01+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">Mercator Madness.</title><link href="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html" rel="alternate" type="text/html" title="Mercator Madness." /><published>2017-04-29T17:03:40+02:00</published><updated>2017-04-29T17:03:40+02:00</updated><id>http://mjmdavis.com/showing/2017/04/29/mercator-madness</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html">&lt;link rel=&quot;import&quot; href=&quot;http://mjmdavis.com/assets/bower/globe-map/globe-map.html&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2017-05-14T22:50:12+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">Playing with projections.</title><link href="http://mjmdavis.com/showing/2017/05/14/2017-05-29-playing-with-projections.html" rel="alternate" type="text/html" title="Playing with projections." /><published>2017-05-14T17:03:39+02:00</published><updated>2017-05-14T17:03:39+02:00</updated><id>http://mjmdavis.com/showing/2017/05/14/2017-05-29-playing-with-projections</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/05/14/2017-05-29-playing-with-projections.html">&lt;link rel=&quot;import&quot; href=&quot;http://mjmdavis.com/assets/bower/globe-map/globe-map.html&quot; /&gt;
+
+&lt;h2 id=&quot;drag-me&quot;&gt;Drag me&lt;/h2&gt;
+&lt;globe-map width=&quot;740&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;InterruptedHomolosine&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;geodesic_graticule&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:false}}&quot;&gt;&lt;/globe-map&gt;
+
+&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
+&lt;p&gt;Every map you see in 2D is some kind of tradeoff of different types of distortion. It’s not always immediately obvious what tradeoffs are being made because we have been conditioned to seeing the world as a 2D projection of a 3D object. i.e. A globe unrolled onto a piece of paper.&lt;/p&gt;
+
+&lt;p&gt;Below is a tool that aims to help humans quickly gain an intuitive understanding for how a particular map projection distorts the globe.&lt;/p&gt;
+
+&lt;h2 id=&quot;concepts&quot;&gt;Concepts&lt;/h2&gt;
+&lt;h5 id=&quot;orthographic--mercator&quot;&gt;(Orthographic &amp;amp; Mercator)&lt;/h5&gt;
+
+&lt;p&gt;To help my understanding of how projections distort the globe I came up with a little tool that allows you to rotate a globe and see how the rotated globe translates into a particular map. Here is that tool comparing the globe to the Mercator projection. You can &lt;strong&gt;drag&lt;/strong&gt; either map to rotate the earth and &lt;strong&gt;reset&lt;/strong&gt; the rotation with the button in the top left.&lt;/p&gt;
+
+&lt;globe-map width=&quot;360&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+
+&lt;p&gt;This representation helps us understand how projections distort area. Projections also distort shape. This view illustrates the distortion of shape.&lt;/p&gt;
+
+&lt;globe-map width=&quot;360&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;geodesic_graticule&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+
+&lt;p&gt;The idea is to split the globe up into similarly shaped and sized tiles. Each tile has similar area and shape on the globe so it’s easy to see the distortion on the map. Traditional graticules are neither similar in size or shape on a globe and can be considered misleading.&lt;/p&gt;
+
+&lt;p&gt;In fact, both representation give you an idea of how a map projection distorts shape and area.&lt;/p&gt;
+
+&lt;p&gt;Armed with these weapons you can fight back against the tyrannical cartographers of times gone by. Turn your nose up in disgust at density metrics on Mercator maps and make up your own mind which projection you like best.&lt;/p&gt;
+
+&lt;p&gt;My favorite is below, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Goode_homolosine_projection&quot;&gt;Goode Homolosine&lt;/a&gt;.&lt;br /&gt;
+It is indeed very Goode; an equal-area projection, it preserves area across the map. It also, in my opinion, does a good job of minimising distortion thanks to it’s interruptions (cuts).&lt;/p&gt;
+
+&lt;globe-map width=&quot;740&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;InterruptedHomolosine&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;geodesic_graticule&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+
+&lt;h3 id=&quot;your-turn&quot;&gt;Your turn&lt;/h3&gt;
+
+&lt;p&gt;Now, feel free to use this tool to play around and get a better understanding of map projections and maybe the world we live on.&lt;/p&gt;
+
+&lt;globe-map width=&quot;740&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;InterruptedHomolosine&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;geodesic_graticule&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Mercator Madness.</title><link href="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html" rel="alternate" type="text/html" title="Mercator Madness." /><published>2017-04-29T17:03:40+02:00</published><updated>2017-04-29T17:03:40+02:00</updated><id>http://mjmdavis.com/showing/2017/04/29/mercator-madness</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html">&lt;link rel=&quot;import&quot; href=&quot;http://mjmdavis.com/assets/bower/globe-map/globe-map.html&quot; /&gt;
 
 &lt;script src=&quot;http://mjmdavis.com/assets/bower/d3/d3.min.js&quot;&gt;&lt;/script&gt;
 

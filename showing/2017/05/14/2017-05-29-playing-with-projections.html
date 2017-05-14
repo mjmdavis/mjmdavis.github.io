@@ -7,11 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>mjmdavis.com</title>
-  <meta name="description" content="A personal webpage.">
+  <title>Playing with projections.</title>
+  <meta name="description" content="">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://mjmdavis.com/">
+  <link rel="canonical" href="http://mjmdavis.com/showing/2017/05/14/2017-05-29-playing-with-projections.html">
   <link rel="alternate" type="application/rss+xml" title="mjmdavis.com" href="/feed.xml">
   
   
@@ -96,47 +96,62 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Playing with projections.</h1>
+    <p class="post-meta">
+      <time datetime="2017-05-14T17:03:39+02:00" itemprop="datePublished">
+        
+        May 14, 2017
+      </time>
+      </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <link rel="import" href="http://mjmdavis.com/assets/bower/globe-map/globe-map.html" />
+
+<h2 id="drag-me">Drag me</h2>
+<globe-map width="740" projections="[&quot;Orthographic&quot;, &quot;InterruptedHomolosine&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;geodesic_graticule&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:false}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:false}}"></globe-map>
+
+<h2 id="why">Why?</h2>
+<p>Every map you see in 2D is some kind of tradeoff of different types of distortion. It’s not always immediately obvious what tradeoffs are being made because we have been conditioned to seeing the world as a 2D projection of a 3D object. i.e. A globe unrolled onto a piece of paper.</p>
+
+<p>Below is a tool that aims to help humans quickly gain an intuitive understanding for how a particular map projection distorts the globe.</p>
+
+<h2 id="concepts">Concepts</h2>
+<h5 id="orthographic--mercator">(Orthographic &amp; Mercator)</h5>
+
+<p>To help my understanding of how projections distort the globe I came up with a little tool that allows you to rotate a globe and see how the rotated globe translates into a particular map. Here is that tool comparing the globe to the Mercator projection. You can <strong>drag</strong> either map to rotate the earth and <strong>reset</strong> the rotation with the button in the top left.</p>
+
+<globe-map width="360" projections="[&quot;Orthographic&quot;, &quot;Mercator&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
+
+<p>This representation helps us understand how projections distort area. Projections also distort shape. This view illustrates the distortion of shape.</p>
+
+<globe-map width="360" projections="[&quot;Orthographic&quot;, &quot;Mercator&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;geodesic_graticule&quot;:{&quot;enabled&quot;:true}}"></globe-map>
+
+<p>The idea is to split the globe up into similarly shaped and sized tiles. Each tile has similar area and shape on the globe so it’s easy to see the distortion on the map. Traditional graticules are neither similar in size or shape on a globe and can be considered misleading.</p>
+
+<p>In fact, both representation give you an idea of how a map projection distorts shape and area.</p>
+
+<p>Armed with these weapons you can fight back against the tyrannical cartographers of times gone by. Turn your nose up in disgust at density metrics on Mercator maps and make up your own mind which projection you like best.</p>
+
+<p>My favorite is below, the <a href="https://en.wikipedia.org/wiki/Goode_homolosine_projection">Goode Homolosine</a>.<br />
+It is indeed very Goode; an equal-area projection, it preserves area across the map. It also, in my opinion, does a good job of minimising distortion thanks to it’s interruptions (cuts).</p>
+
+<globe-map width="740" projections="[&quot;Orthographic&quot;, &quot;InterruptedHomolosine&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;geodesic_graticule&quot;:{&quot;enabled&quot;:true}}"></globe-map>
+
+<h3 id="your-turn">Your turn</h3>
+
+<p>Now, feel free to use this tool to play around and get a better understanding of map projections and maybe the world we live on.</p>
+
+<globe-map width="740" projections="[&quot;Orthographic&quot;, &quot;InterruptedHomolosine&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;geodesic_graticule&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}}"></globe-map>
+
+
+  </div>
+
   
-  
-
-
-  <ul class="post-list">
-    
-      <li>
-        
-        <span class="post-meta">May 14, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/showing/2017/05/14/2017-05-29-playing-with-projections.html">Playing with projections.</a>
-        </h2>
-      </li>
-    
-      <li>
-        
-        <span class="post-meta">Apr 29, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/showing/2017/04/29/mercator-madness.html">Mercator Madness.</a>
-        </h2>
-      </li>
-    
-      <li>
-        
-        <span class="post-meta">Apr 29, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/showing/2017/04/29/how-your-map-is-a-lie.html">Every map is a lie.</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
-</div>
+</article>
 
       </div>
     </main>

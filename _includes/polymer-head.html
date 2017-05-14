@@ -1,15 +1,1 @@
 <link rel="import" href="{{ site.url }}/assets/bower/polymer/polymer.html">
-<script>
-(function() {
-    if ('registerElement' in document
-        && 'import' in document.createElement('link')
-        && 'content' in document.createElement('template')) {
-        // platform is good!
-    } else {
-        // polyfill the platform!
-        var e = document.createElement('script');
-        e.src = 'https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.24/webcomponents-lite.min.js';
-        document.body.appendChild(e);
-    }
-})();
-</script>

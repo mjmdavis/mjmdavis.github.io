@@ -5,3 +5,5 @@ _site
 *.lock
 *.swo
 .asset-cache
+assets
+.idea

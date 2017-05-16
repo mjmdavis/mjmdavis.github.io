@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to lie with maps."
+title:  "How to read maps."
 date:   2017-04-29 17:03:39 +0200
 categories: showing
 ---
@@ -16,6 +16,11 @@ categories: showing
 
 <link rel="import" href="{{ site.url }}/assets/bower/globe-map/globe-map.html">
 
+### Or to make sense of this picture
+<div class='mapwrap'>
+<globe-map width='500' rotation='[0,-50,0]' projections='["Orthographic"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}'></globe-map>
+<globe-map width='500' rotation='[0,-50, 0]' projections='["Mercator"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}'></globe-map>
+</div>
 
 ## The World
 The world is round. Don't believe me? [Google says so](https://www.google.com/maps/@25.6150528,3.6591736,11928591m/data=!3m1!1e3)

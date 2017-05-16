@@ -94,7 +94,7 @@ And how it relates to the globe and the Mercator projection.
 
 The Equirectangular projection is like dropping the spherical globe into a cylinder, making tiny holes at the poles and stretching the sphere out so the points at the poles wrap around the top and bottom of the cylinder. Then you just slice the cylinder at the [antimeridian](https://en.wikipedia.org/wiki/180th_meridian) and unroll it into a rectangle.  
 
-Notice that on the Equirectangular map, the height of each circle is the same but the width changes as the map gets more stretched out near the poles. In fact, as you get to a pole, you have stretched a single point out into the entire width of the map! [Infinite distortion]({{ site.url }}/showing/2017/04/29/mercator-madness.html).
+Notice that on the Equirectangular map, the height of each circle is the same but the width changes as the map gets more stretched out near the poles. In fact, as you get to a pole, you have stretched a single point out into the entire width of the map!  
 
 To remedy the horizontal stretching, the Mercator Projection stretches the globe out in the vertical direction an equal amount to the stretching in the vertical direction. This is good because it helps preserve the shape of small objects. It's also great if you're a sailor as you can draw a straight line on a Merctor map and if you sail along it, you will maintain a constant heading. Really useful for navigating a ship in the 1600s. In fact, Mercator was the name of a guy who sold maps. He described the map using this projection method as a "new and augmented description of Earth corrected for the use of sailors". Today the Mercator projection is still used to navigate the high seas.
 
@@ -114,15 +114,17 @@ Below are embedded maps of Singapore and Anchorage, Alaska at the same zoom leve
 </iframe>
 <br/>
 
+In fact, this effect becomes leads to [Infinite distortion]({{ site.url }}/showing/2017/04/29/mercator-madness.html).
+
 ### TL;DR.
 
 Every map you see in 2D is some kind of tradeoff of different types of distortion. It's not always immediately obvious what tradeoffs are being made because we have been conditioned to seeing the world as a 2D projection of a 3D object. i.e. A globe unrolled onto a piece of paper.
 
-Below is a tool that aims to help humans quickly gain an intuitive understanding for how a particular map projection distorts the globe. 
+To help with this, I came up with a tool that aims to help humans quickly gain an intuitive understanding for how a particular map projection distorts the globe. 
 
 ### Playing with Projections
 
-To help my understanding of how projections distort the globe I came up with a little tool that allows you to rotate a globe and see how the rotated globe translates into a particular map. Here is that tool comparing the globe to the Mercator projection. You can **drag** either map to rotate the earth and **reset** the rotation with the button in the top left.
+To help my understanding of how projections distort the globe I came up with a little tool that allows you to rotate a globe and see how the rotated globe translates into a particular map. Here is that tool comparing the globe to the Mercator projection. You can **drag** either map to rotate the earth and **recenter** the rotation with the button in the top left.
 
 <div class="mapwrap">
 <globe-map width='360' projections='["Orthographic", "Mercator"]' config='{"rotation":{"enabled":true, "ui_enabled":true}, "nt_indicatrice":{"enabled":true}}'></globe-map>

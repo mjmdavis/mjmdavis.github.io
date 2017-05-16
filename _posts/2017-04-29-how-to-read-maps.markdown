@@ -16,10 +16,10 @@ categories: showing
 
 <link rel="import" href="{{ site.url }}/assets/bower/globe-map/globe-map.html">
 
-### Or to make sense of this picture
+### Or, how to make sense of this picture
 <div class='mapwrap'>
-<globe-map width='500' rotation='[0,-50,0]' projections='["Orthographic"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}'></globe-map>
-<globe-map width='500' rotation='[0,-50, 0]' projections='["Mercator"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}'></globe-map>
+<globe-map width='500' rotation='[-30,-50,0]' projections='["Orthographic"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}'></globe-map>
+<globe-map width='500' rotation='[-30,-50, 0]' projections='["Mercator"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}'></globe-map>
 </div>
 
 ## The World

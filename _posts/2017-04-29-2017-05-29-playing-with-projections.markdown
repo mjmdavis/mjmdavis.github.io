@@ -41,5 +41,5 @@ It is indeed very Goode; an equal-area projection, it preserves area across the 
 
 Now, feel free to use this tool to play around and get a better understanding of map projections and maybe the world we live on.
 
-<globe-map width='740' projections='["Orthographic", "InterruptedHomolosine"]' config='{"rotation":{"enabled":true, "ui_enabled":true}, "geodesic_graticule":{"enabled":true, "ui_enabled":true}, "nt_indicatrice":{"enabled":true, "ui_enabled":true}}'></globe-map>
+<globe-map width='600' height='600' projections='["Orthographic", "InterruptedHomolosine"]' config='{"rotation":{"enabled":true, "ui_enabled":true}, "geodesic_graticule":{"enabled":true, "ui_enabled":true}, "nt_indicatrice":{"enabled":true, "ui_enabled":true}, "projection_selection":{"enabled":true}}'></globe-map>
 

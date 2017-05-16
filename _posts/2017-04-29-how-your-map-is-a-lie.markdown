@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Every map is a lie."
+title:  "How to lie with maps."
 date:   2017-04-29 17:03:39 +0200
 categories: showing
 ---
 
 <link rel="import" href="{{ site.url }}/assets/bower/globe-map/globe-map.html">
 
-# How you lie with maps
+
 ## The World
 The world is round. Don't believe me? [Google says so](https://www.google.com/maps/@25.6150528,3.6591736,11928591m/data=!3m1!1e3)
 
@@ -52,7 +52,7 @@ Someone told me that a popular and good way of making a sphere flat was somethin
 
 <globe-map width='740' height='740' projections='["Mercator"]'></globe-map>
 
-So, the whole world is visible :). Wow, Greenland looks relaly big though, and what's the gigantic land mass at the bottom? Let's put a globe next to it.
+So, the whole world is visible :). Wow, Greenland looks really big though, and what's the gigantic land mass at the bottom? Let's put a globe next to it.
 
 <div>
 <globe-map projections='["Orthographic"]' config='{"rotation":{"enabled":true, "ui_enabled":true}}' width='360' ></globe-map>
@@ -136,6 +136,6 @@ It is indeed very Goode; an equal-area projection, it preserves area and area co
 
 Now, feel free to use this tool to play around and get a better understanding of map projections and maybe the world we live on.
 
-<globe-map width='740' projections='["Orthographic", "InterruptedHomolosine"]' config='{"rotation":{"enabled":true, "ui_enabled":true}, "geodesic_graticule":{"enabled":true, "ui_enabled":true}, "nt_indicatrice":{"enabled":true, "ui_enabled":true}}'></globe-map>
+<globe-map width='740' projections='["Orthographic", "InterruptedHomolosine"]' config='{"rotation":{"enabled":true, "ui_enabled":true}, "geodesic_graticule":{"enabled":true, "ui_enabled":true}, "nt_indicatrice":{"enabled":true, "ui_enabled":true}, "projection_selection":{"enabled":true}}'></globe-map>
 
 

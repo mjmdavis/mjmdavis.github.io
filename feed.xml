@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2017-05-16T12:03:02+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">Mercator Madness.</title><link href="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html" rel="alternate" type="text/html" title="Mercator Madness." /><published>2017-04-29T17:03:40+02:00</published><updated>2017-04-29T17:03:40+02:00</updated><id>http://mjmdavis.com/showing/2017/04/29/mercator-madness</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html">&lt;link rel=&quot;import&quot; href=&quot;http://mjmdavis.com/assets/bower/globe-map/globe-map.html&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2017-05-16T12:32:56+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">Mercator Madness.</title><link href="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html" rel="alternate" type="text/html" title="Mercator Madness." /><published>2017-04-29T17:03:40+02:00</published><updated>2017-04-29T17:03:40+02:00</updated><id>http://mjmdavis.com/showing/2017/04/29/mercator-madness</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html">&lt;link rel=&quot;import&quot; href=&quot;http://mjmdavis.com/assets/bower/globe-map/globe-map.html&quot; /&gt;
 
 &lt;script src=&quot;http://mjmdavis.com/assets/bower/d3/d3.min.js&quot;&gt;&lt;/script&gt;
 
@@ -19,7 +19,7 @@
 
 &lt;canvas id=&quot;mercator-madness-canvas&quot;&gt;&lt;/canvas&gt;
 &lt;script src=&quot;http://mjmdavis.com/scratch/mercator_madness.js&quot;&gt;
-&lt;/script&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">How to lie with maps.</title><link href="http://mjmdavis.com/showing/2017/04/29/how-your-map-is-a-lie.html" rel="alternate" type="text/html" title="How to lie with maps." /><published>2017-04-29T17:03:39+02:00</published><updated>2017-04-29T17:03:39+02:00</updated><id>http://mjmdavis.com/showing/2017/04/29/how-your-map-is-a-lie</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/04/29/how-your-map-is-a-lie.html">&lt;style type=&quot;text/css&quot;&gt;
+&lt;/script&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">How to read maps.</title><link href="http://mjmdavis.com/showing/2017/04/29/how-to-read-maps.html" rel="alternate" type="text/html" title="How to read maps." /><published>2017-04-29T17:03:39+02:00</published><updated>2017-04-29T17:03:39+02:00</updated><id>http://mjmdavis.com/showing/2017/04/29/how-to-read-maps</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/04/29/how-to-read-maps.html">&lt;style type=&quot;text/css&quot;&gt;
 .mapwrap {
     display:flex;
     align-items:center;
@@ -29,6 +29,12 @@
 &lt;/style&gt;
 
 &lt;link rel=&quot;import&quot; href=&quot;http://mjmdavis.com/assets/bower/globe-map/globe-map.html&quot; /&gt;
+
+&lt;h3 id=&quot;or-how-to-make-sense-of-this-picture&quot;&gt;Or, how to make sense of this picture&lt;/h3&gt;
+&lt;div class=&quot;mapwrap&quot;&gt;
+  &lt;globe-map width=&quot;500&quot; rotation=&quot;[-30,-50,0]&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:false, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+  &lt;globe-map width=&quot;500&quot; rotation=&quot;[-30,-50, 0]&quot; projections=&quot;[&amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:false, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;the-world&quot;&gt;The World&lt;/h2&gt;
 &lt;p&gt;The world is round. Don’t believe me? &lt;a href=&quot;https://www.google.com/maps/@25.6150528,3.6591736,11928591m/data=!3m1!1e3&quot;&gt;Google says so&lt;/a&gt;&lt;/p&gt;

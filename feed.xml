@@ -1,40 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2017-05-16T11:49:18+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">Playing with projections.</title><link href="http://mjmdavis.com/showing/2017/05/14/playing-with-projections.html" rel="alternate" type="text/html" title="Playing with projections." /><published>2017-05-14T17:03:39+02:00</published><updated>2017-05-14T17:03:39+02:00</updated><id>http://mjmdavis.com/showing/2017/05/14/playing-with-projections</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/05/14/playing-with-projections.html">&lt;link rel=&quot;import&quot; href=&quot;http://mjmdavis.com/assets/bower/globe-map/globe-map.html&quot; /&gt;
-
-&lt;h2 id=&quot;drag-me&quot;&gt;Drag me&lt;/h2&gt;
-&lt;globe-map width=&quot;740&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;InterruptedHomolosine&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;geodesic_graticule&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:false}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:false}}&quot;&gt;&lt;/globe-map&gt;
-
-&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
-&lt;p&gt;Every map you see in 2D is some kind of tradeoff of different types of distortion. It’s not always immediately obvious what tradeoffs are being made because we have been conditioned to seeing the world as a 2D projection of a 3D object. i.e. A globe unrolled onto a piece of paper.&lt;/p&gt;
-
-&lt;p&gt;Below is a tool that aims to help humans quickly gain an intuitive understanding for how a particular map projection distorts the globe.&lt;/p&gt;
-
-&lt;h2 id=&quot;concepts&quot;&gt;Concepts&lt;/h2&gt;
-&lt;h5 id=&quot;orthographic--mercator&quot;&gt;(Orthographic &amp;amp; Mercator)&lt;/h5&gt;
-
-&lt;p&gt;To help my understanding of how projections distort the globe I came up with a little tool that allows you to rotate a globe and see how the rotated globe translates into a particular map. Here is that tool comparing the globe to the Mercator projection. You can &lt;strong&gt;drag&lt;/strong&gt; either map to rotate the earth and &lt;strong&gt;reset&lt;/strong&gt; the rotation with the button in the top left.&lt;/p&gt;
-
-&lt;globe-map width=&quot;540&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
-
-&lt;p&gt;This representation helps us understand how projections distort area. Projections also distort shape. This view illustrates the distortion of shape.&lt;/p&gt;
-
-&lt;globe-map width=&quot;540&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;geodesic_graticule&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
-
-&lt;p&gt;The idea is to split the globe up into similarly shaped and sized tiles. Each tile has similar area and shape on the globe so it’s easy to see the distortion on the map. Traditional graticules are neither similar in size or shape on a globe and can be considered misleading.&lt;/p&gt;
-
-&lt;p&gt;In fact, both representation give you an idea of how a map projection distorts shape and area.&lt;/p&gt;
-
-&lt;p&gt;Armed with these weapons you can fight back against the tyrannical cartographers of times gone by. Turn your nose up in disgust at density metrics on Mercator maps and make up your own mind which projection you like best.&lt;/p&gt;
-
-&lt;p&gt;My favorite is below, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Goode_homolosine_projection&quot;&gt;Goode Homolosine&lt;/a&gt;.&lt;br /&gt;
-It is indeed very Goode; an equal-area projection, it preserves area across the map. It also, in my opinion, does a good job of minimising distortion thanks to it’s interruptions (cuts).&lt;/p&gt;
-
-&lt;globe-map width=&quot;740&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;InterruptedHomolosine&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;geodesic_graticule&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;
-
-&lt;h3 id=&quot;your-turn&quot;&gt;Your turn&lt;/h3&gt;
-
-&lt;p&gt;Now, feel free to use this tool to play around and get a better understanding of map projections and maybe the world we live on.&lt;/p&gt;
-
-&lt;globe-map width=&quot;740&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;InterruptedHomolosine&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;geodesic_graticule&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;projection_selection&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Mercator Madness.</title><link href="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html" rel="alternate" type="text/html" title="Mercator Madness." /><published>2017-04-29T17:03:40+02:00</published><updated>2017-04-29T17:03:40+02:00</updated><id>http://mjmdavis.com/showing/2017/04/29/mercator-madness</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html">&lt;link rel=&quot;import&quot; href=&quot;http://mjmdavis.com/assets/bower/globe-map/globe-map.html&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2017-05-16T12:03:02+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">Mercator Madness.</title><link href="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html" rel="alternate" type="text/html" title="Mercator Madness." /><published>2017-04-29T17:03:40+02:00</published><updated>2017-04-29T17:03:40+02:00</updated><id>http://mjmdavis.com/showing/2017/04/29/mercator-madness</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/04/29/mercator-madness.html">&lt;link rel=&quot;import&quot; href=&quot;http://mjmdavis.com/assets/bower/globe-map/globe-map.html&quot; /&gt;
 
 &lt;script src=&quot;http://mjmdavis.com/assets/bower/d3/d3.min.js&quot;&gt;&lt;/script&gt;
 
@@ -142,7 +106,7 @@ I’m more interested in distortion at the scale of the map I’m looking at. To
 
 &lt;p&gt;The Equirectangular projection is like dropping the spherical globe into a cylinder, making tiny holes at the poles and stretching the sphere out so the points at the poles wrap around the top and bottom of the cylinder. Then you just slice the cylinder at the &lt;a href=&quot;https://en.wikipedia.org/wiki/180th_meridian&quot;&gt;antimeridian&lt;/a&gt; and unroll it into a rectangle.&lt;/p&gt;
 
-&lt;p&gt;Notice that on the Equirectangular map, the height of each circle is the same but the width changes as the map gets more stretched out near the poles. In fact, as you get to a pole, you have stretched a single point out into the entire width of the map! &lt;a href=&quot;http://mjmdavis.com/showing/2017/04/29/mercator-madness.html&quot;&gt;Infinite distortion&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Notice that on the Equirectangular map, the height of each circle is the same but the width changes as the map gets more stretched out near the poles. In fact, as you get to a pole, you have stretched a single point out into the entire width of the map!&lt;/p&gt;
 
 &lt;p&gt;To remedy the horizontal stretching, the Mercator Projection stretches the globe out in the vertical direction an equal amount to the stretching in the vertical direction. This is good because it helps preserve the shape of small objects. It’s also great if you’re a sailor as you can draw a straight line on a Merctor map and if you sail along it, you will maintain a constant heading. Really useful for navigating a ship in the 1600s. In fact, Mercator was the name of a guy who sold maps. He described the map using this projection method as a “new and augmented description of Earth corrected for the use of sailors”. Today the Mercator projection is still used to navigate the high seas.&lt;/p&gt;
 
@@ -160,15 +124,17 @@ I’m more interested in distortion at the scale of the map I’m looking at. To
 &amp;amp;key=AIzaSyABWm9A528mgx9YlY36IeNAoN2RmcmedmM&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
+&lt;p&gt;In fact, this effect becomes leads to &lt;a href=&quot;http://mjmdavis.com/showing/2017/04/29/mercator-madness.html&quot;&gt;Infinite distortion&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h3 id=&quot;tldr&quot;&gt;TL;DR.&lt;/h3&gt;
 
 &lt;p&gt;Every map you see in 2D is some kind of tradeoff of different types of distortion. It’s not always immediately obvious what tradeoffs are being made because we have been conditioned to seeing the world as a 2D projection of a 3D object. i.e. A globe unrolled onto a piece of paper.&lt;/p&gt;
 
-&lt;p&gt;Below is a tool that aims to help humans quickly gain an intuitive understanding for how a particular map projection distorts the globe.&lt;/p&gt;
+&lt;p&gt;To help with this, I came up with a tool that aims to help humans quickly gain an intuitive understanding for how a particular map projection distorts the globe.&lt;/p&gt;
 
 &lt;h3 id=&quot;playing-with-projections&quot;&gt;Playing with Projections&lt;/h3&gt;
 
-&lt;p&gt;To help my understanding of how projections distort the globe I came up with a little tool that allows you to rotate a globe and see how the rotated globe translates into a particular map. Here is that tool comparing the globe to the Mercator projection. You can &lt;strong&gt;drag&lt;/strong&gt; either map to rotate the earth and &lt;strong&gt;reset&lt;/strong&gt; the rotation with the button in the top left.&lt;/p&gt;
+&lt;p&gt;To help my understanding of how projections distort the globe I came up with a little tool that allows you to rotate a globe and see how the rotated globe translates into a particular map. Here is that tool comparing the globe to the Mercator projection. You can &lt;strong&gt;drag&lt;/strong&gt; either map to rotate the earth and &lt;strong&gt;recenter&lt;/strong&gt; the rotation with the button in the top left.&lt;/p&gt;
 
 &lt;div class=&quot;mapwrap&quot;&gt;
   &lt;globe-map width=&quot;360&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;

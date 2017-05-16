@@ -124,11 +124,15 @@ Below is a tool that aims to help humans quickly gain an intuitive understanding
 
 To help my understanding of how projections distort the globe I came up with a little tool that allows you to rotate a globe and see how the rotated globe translates into a particular map. Here is that tool comparing the globe to the Mercator projection. You can **drag** either map to rotate the earth and **reset** the rotation with the button in the top left.
 
+<div class="mapwrap">
 <globe-map width='360' projections='["Orthographic", "Mercator"]' config='{"rotation":{"enabled":true, "ui_enabled":true}, "nt_indicatrice":{"enabled":true}}'></globe-map>
+</div>
 
 This representation helps us understand how projections distort area. Projections also distort shape. This view illustrates the distortion of shape.
 
+<div class="mapwrap">
 <globe-map width='360' projections='["Orthographic", "Mercator"]' config='{"rotation":{"enabled":true, "ui_enabled":true}, "geodesic_graticule":{"enabled":true}}'></globe-map>
+</div>
 
 The idea is to split the globe up into similarly shaped and sized tiles. Each tile has similar area and shape on the globe so it's easy to see the distortion on the map. Traditional graticules are neither similar in size or shape on a globe and can be considered misleading.
 

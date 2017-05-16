@@ -5,6 +5,15 @@ date:   2017-04-29 17:03:39 +0200
 categories: showing
 ---
 
+<style type="text/css">
+.mapwrap {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+</style>
+
 <link rel="import" href="{{ site.url }}/assets/bower/globe-map/globe-map.html">
 
 
@@ -13,31 +22,31 @@ The world is round. Don't believe me? [Google says so](https://www.google.com/ma
 
 Let me show you the world.
 
-<globe-map projections='["OrthographicZoomed"]' width="250" height="250"></globe-map>
+<globe-map projections='["Orthographic"]' width="1000"></globe-map>
 
 Round and wonderful. There's Africa and Europe. You can see South America. If you look around a bit
 you can see what looks like it might be Canada... Hmm. OK, I'll spin it around and show you the other side.
 
-<globe-map projections='["OrthographicZoomed"]' rotation='[180,0,0]' width="250" height="250"></globe-map>
+<globe-map projections='["Orthographic"]' rotation='[180,0,0]' width="600" ></globe-map>
 
 Not much better... OK, third time's the charm...
 
-<globe-map projections='["OrthographicZoomed"]' rotation='[90,0,0]' width="250" height="250"></globe-map>
+<globe-map projections='["Orthographic"]' rotation='[90,0,0]' width="600" ></globe-map>
 
 Yes, here you see America, South America... where's China? Let's draw a few more!
 
 ### I present you... THE WORLD
 <div>
-<globe-map projections='["OrthographicZoomed"]' rotation='[90,0,0]' width="240" height="240" ></globe-map>
-<globe-map projections='["OrthographicZoomed"]' rotation='[0,0,0]' width="240" height="240" ></globe-map>
-<globe-map projections='["OrthographicZoomed"]' rotation='[-90,0,0]' width="240" height="240" ></globe-map>
+<globe-map projections='["Orthographic"]' rotation='[90,0,0]' width="600" ></globe-map>
+<globe-map projections='["Orthographic"]' rotation='[0,0,0]' width="600" ></globe-map>
+<globe-map projections='["Orthographic"]' rotation='[-90,0,0]' width="600" ></globe-map>
 </div>
 
 I'm not sure about you but I'm feeling distinctly underwhelmed. Only the countries in the center are undistorted and I can't see the whole map.
 People used to put this on spinning balls right?
 Let's try that.
 
-<globe-map width='740' projections='["OrthographicZoomed"]' config='{"rotation":{"enabled":true, "ui_enabled":true}}'></globe-map>
+<globe-map width='1000' projections='["Orthographic"]' config='{"rotation":{"enabled":true, "ui_enabled":true}}'></globe-map>
 
 Fun! You can even spin it!
 
@@ -54,9 +63,9 @@ Someone told me that a popular and good way of making a sphere flat was somethin
 
 So, the whole world is visible :). Wow, Greenland looks really big though, and what's the gigantic land mass at the bottom? Let's put a globe next to it.
 
-<div>
-<globe-map projections='["Orthographic"]' config='{"rotation":{"enabled":true, "ui_enabled":true}}' width='360' ></globe-map>
-<globe-map projections='["Mercator"]' width='360'></globe-map>
+<div class="mapwrap">
+<globe-map projections='["Orthographic"]' config='{"rotation":{"enabled":true, "ui_enabled":true}}' width='540' ></globe-map>
+<globe-map projections='["Mercator"]' width='540'></globe-map>
 </div>
 
 Right. So that really big land mass at the bottom? It's not nearly as big on the globe as on the flat map. Maybe we can add some indication of scale better compare.
@@ -64,9 +73,9 @@ Right. So that really big land mass at the bottom? It's not nearly as big on the
 A Frenchman named Tissot came up with [something fancy](https://en.wikipedia.org/wiki/Tissot%27s_indicatrix). The general idea was to characterize local distortions; To show you what a small circle would look like when moved from the globe to the map.
 I'm more interested in distortion at the scale of the map I'm looking at. To characterize this I think we could draw circles on the globe and project them into our map.
 
-<div>
-<globe-map projections='["Orthographic"]' config='{"rotation":{"enabled":true, "ui_enabled":true}, "nt_indicatrice":{"enabled":true}}' width='360'></globe-map>
-<globe-map projections='["Mercator"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}' width='360'></globe-map>
+<div class="mapwrap">
+<globe-map projections='["Orthographic"]' config='{"rotation":{"enabled":true, "ui_enabled":true}, "nt_indicatrice":{"enabled":true}}' width='540'></globe-map>
+<globe-map projections='["Mercator"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}' width='540'></globe-map>
 </div>
 
 Play around with the globe a bit and get a feel for how the Mercator projection distorts area. You might have noticed that the circles drawn on the poles of the globe do not appear on the Mercator map... Well, they are *barely* visible, as thin lines at the top and bottom of the map. Why aren't they visible? Well, the Mercator projection preserves the angle of intersecting lines and preserves shapes at small scale.
@@ -77,10 +86,10 @@ To better understand the Mercator projection, we should first look at the Equire
 
 And how it relates to the globe and the Mercator projection.
 
-<div>
-<globe-map width='240' projections='["Orthographic"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}'></globe-map>
-<globe-map width='240' projections='["Equirectangular"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}'></globe-map>
-<globe-map width='240' projections='["Mercator"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}'></globe-map>
+<div class='mapwrap'>
+<globe-map width='300' projections='["Orthographic"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}'></globe-map>
+<globe-map width='300' projections='["Equirectangular"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}'></globe-map>
+<globe-map width='300' projections='["Mercator"]' config='{"rotation":{"enabled":false, "ui_enabled":false}, "nt_indicatrice":{"enabled":true}}'></globe-map>
 </div>
 
 The Equirectangular projection is like dropping the spherical globe into a cylinder, making tiny holes at the poles and stretching the sphere out so the points at the poles wrap around the top and bottom of the cylinder. Then you just slice the cylinder at the [antimeridian](https://en.wikipedia.org/wiki/180th_meridian) and unroll it into a rectangle.  

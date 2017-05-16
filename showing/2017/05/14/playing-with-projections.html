@@ -11,7 +11,7 @@
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://mjmdavis.com/showing/2017/05/14/2017-05-29-playing-with-projections.html">
+  <link rel="canonical" href="http://mjmdavis.com/showing/2017/05/14/playing-with-projections.html">
   <link rel="alternate" type="application/rss+xml" title="mjmdavis.com" href="/feed.xml">
   
   
@@ -124,11 +124,11 @@
 
 <p>To help my understanding of how projections distort the globe I came up with a little tool that allows you to rotate a globe and see how the rotated globe translates into a particular map. Here is that tool comparing the globe to the Mercator projection. You can <strong>drag</strong> either map to rotate the earth and <strong>reset</strong> the rotation with the button in the top left.</p>
 
-<globe-map width="360" projections="[&quot;Orthographic&quot;, &quot;Mercator&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
+<globe-map width="540" projections="[&quot;Orthographic&quot;, &quot;Mercator&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
 
 <p>This representation helps us understand how projections distort area. Projections also distort shape. This view illustrates the distortion of shape.</p>
 
-<globe-map width="360" projections="[&quot;Orthographic&quot;, &quot;Mercator&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;geodesic_graticule&quot;:{&quot;enabled&quot;:true}}"></globe-map>
+<globe-map width="540" projections="[&quot;Orthographic&quot;, &quot;Mercator&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;geodesic_graticule&quot;:{&quot;enabled&quot;:true}}"></globe-map>
 
 <p>The idea is to split the globe up into similarly shaped and sized tiles. Each tile has similar area and shape on the globe so it’s easy to see the distortion on the map. Traditional graticules are neither similar in size or shape on a globe and can be considered misleading.</p>
 
@@ -145,7 +145,7 @@ It is indeed very Goode; an equal-area projection, it preserves area across the 
 
 <p>Now, feel free to use this tool to play around and get a better understanding of map projections and maybe the world we live on.</p>
 
-<globe-map width="740" projections="[&quot;Orthographic&quot;, &quot;InterruptedHomolosine&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;geodesic_graticule&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}}"></globe-map>
+<globe-map width="740" projections="[&quot;Orthographic&quot;, &quot;InterruptedHomolosine&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;geodesic_graticule&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;projection_selection&quot;:{&quot;enabled&quot;:true}}"></globe-map>
 
 
   </div>

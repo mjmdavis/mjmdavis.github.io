@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Every map is a lie.</title>
+  <title>How to lie with maps.</title>
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/assets/main.css">
@@ -99,7 +99,7 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Every map is a lie.</h1>
+    <h1 class="post-title" itemprop="name headline">How to lie with maps.</h1>
     <p class="post-meta">
       <time datetime="2017-04-29T17:03:39+02:00" itemprop="datePublished">
         
@@ -109,39 +109,47 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <link rel="import" href="http://mjmdavis.com/assets/bower/globe-map/globe-map.html" />
+    <style type="text/css">
+.mapwrap {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+</style>
 
-<h1 id="how-you-lie-with-maps">How you lie with maps</h1>
+<link rel="import" href="http://mjmdavis.com/assets/bower/globe-map/globe-map.html" />
+
 <h2 id="the-world">The World</h2>
 <p>The world is round. Don’t believe me? <a href="https://www.google.com/maps/@25.6150528,3.6591736,11928591m/data=!3m1!1e3">Google says so</a></p>
 
 <p>Let me show you the world.</p>
 
-<globe-map projections="[&quot;OrthographicZoomed&quot;]" width="250" height="250"></globe-map>
+<globe-map projections="[&quot;Orthographic&quot;]" width="1000"></globe-map>
 
 <p>Round and wonderful. There’s Africa and Europe. You can see South America. If you look around a bit
 you can see what looks like it might be Canada… Hmm. OK, I’ll spin it around and show you the other side.</p>
 
-<globe-map projections="[&quot;OrthographicZoomed&quot;]" rotation="[180,0,0]" width="250" height="250"></globe-map>
+<globe-map projections="[&quot;Orthographic&quot;]" rotation="[180,0,0]" width="600"></globe-map>
 
 <p>Not much better… OK, third time’s the charm…</p>
 
-<globe-map projections="[&quot;OrthographicZoomed&quot;]" rotation="[90,0,0]" width="250" height="250"></globe-map>
+<globe-map projections="[&quot;Orthographic&quot;]" rotation="[90,0,0]" width="600"></globe-map>
 
 <p>Yes, here you see America, South America… where’s China? Let’s draw a few more!</p>
 
 <h3 id="i-present-you-the-world">I present you… THE WORLD</h3>
 <div>
-  <globe-map projections="[&quot;OrthographicZoomed&quot;]" rotation="[90,0,0]" width="240" height="240"></globe-map>
-  <globe-map projections="[&quot;OrthographicZoomed&quot;]" rotation="[0,0,0]" width="240" height="240"></globe-map>
-  <globe-map projections="[&quot;OrthographicZoomed&quot;]" rotation="[-90,0,0]" width="240" height="240"></globe-map>
+  <globe-map projections="[&quot;Orthographic&quot;]" rotation="[90,0,0]" width="600"></globe-map>
+  <globe-map projections="[&quot;Orthographic&quot;]" rotation="[0,0,0]" width="600"></globe-map>
+  <globe-map projections="[&quot;Orthographic&quot;]" rotation="[-90,0,0]" width="600"></globe-map>
 </div>
 
 <p>I’m not sure about you but I’m feeling distinctly underwhelmed. Only the countries in the center are undistorted and I can’t see the whole map.
 People used to put this on spinning balls right?
 Let’s try that.</p>
 
-<globe-map width="740" projections="[&quot;OrthographicZoomed&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}}"></globe-map>
+<globe-map width="1000" projections="[&quot;Orthographic&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}}"></globe-map>
 
 <p>Fun! You can even spin it!</p>
 
@@ -155,11 +163,11 @@ Thin, light, you can roll it up, lay it out on a desk. Most practical!</p>
 
 <globe-map width="740" height="740" projections="[&quot;Mercator&quot;]"></globe-map>
 
-<p>So, the whole world is visible :). Wow, Greenland looks relaly big though, and what’s the gigantic land mass at the bottom? Let’s put a globe next to it.</p>
+<p>So, the whole world is visible :). Wow, Greenland looks really big though, and what’s the gigantic land mass at the bottom? Let’s put a globe next to it.</p>
 
-<div>
-  <globe-map projections="[&quot;Orthographic&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}}" width="360"></globe-map>
-  <globe-map projections="[&quot;Mercator&quot;]" width="360"></globe-map>
+<div class="mapwrap">
+  <globe-map projections="[&quot;Orthographic&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}}" width="540"></globe-map>
+  <globe-map projections="[&quot;Mercator&quot;]" width="540"></globe-map>
 </div>
 
 <p>Right. So that really big land mass at the bottom? It’s not nearly as big on the globe as on the flat map. Maybe we can add some indication of scale better compare.</p>
@@ -167,9 +175,9 @@ Thin, light, you can roll it up, lay it out on a desk. Most practical!</p>
 <p>A Frenchman named Tissot came up with <a href="https://en.wikipedia.org/wiki/Tissot%27s_indicatrix">something fancy</a>. The general idea was to characterize local distortions; To show you what a small circle would look like when moved from the globe to the map.
 I’m more interested in distortion at the scale of the map I’m looking at. To characterize this I think we could draw circles on the globe and project them into our map.</p>
 
-<div>
-  <globe-map projections="[&quot;Orthographic&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}" width="360"></globe-map>
-  <globe-map projections="[&quot;Mercator&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:false, &quot;ui_enabled&quot;:false}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}" width="360"></globe-map>
+<div class="mapwrap">
+  <globe-map projections="[&quot;Orthographic&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}" width="540"></globe-map>
+  <globe-map projections="[&quot;Mercator&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:false, &quot;ui_enabled&quot;:false}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}" width="540"></globe-map>
 </div>
 
 <p>Play around with the globe a bit and get a feel for how the Mercator projection distorts area. You might have noticed that the circles drawn on the poles of the globe do not appear on the Mercator map… Well, they are <em>barely</em> visible, as thin lines at the top and bottom of the map. Why aren’t they visible? Well, the Mercator projection preserves the angle of intersecting lines and preserves shapes at small scale.</p>
@@ -180,10 +188,10 @@ I’m more interested in distortion at the scale of the map I’m looking at. To
 
 <p>And how it relates to the globe and the Mercator projection.</p>
 
-<div>
-  <globe-map width="240" projections="[&quot;Orthographic&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:false, &quot;ui_enabled&quot;:false}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
-  <globe-map width="240" projections="[&quot;Equirectangular&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:false, &quot;ui_enabled&quot;:false}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
-  <globe-map width="240" projections="[&quot;Mercator&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:false, &quot;ui_enabled&quot;:false}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
+<div class="mapwrap">
+  <globe-map width="300" projections="[&quot;Orthographic&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:false, &quot;ui_enabled&quot;:false}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
+  <globe-map width="300" projections="[&quot;Equirectangular&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:false, &quot;ui_enabled&quot;:false}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
+  <globe-map width="300" projections="[&quot;Mercator&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:false, &quot;ui_enabled&quot;:false}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true}}"></globe-map>
 </div>
 
 <p>The Equirectangular projection is like dropping the spherical globe into a cylinder, making tiny holes at the poles and stretching the sphere out so the points at the poles wrap around the top and bottom of the cylinder. Then you just slice the cylinder at the <a href="https://en.wikipedia.org/wiki/180th_meridian">antimeridian</a> and unroll it into a rectangle.</p>
@@ -237,7 +245,7 @@ It is indeed very Goode; an equal-area projection, it preserves area and area co
 
 <p>Now, feel free to use this tool to play around and get a better understanding of map projections and maybe the world we live on.</p>
 
-<globe-map width="740" projections="[&quot;Orthographic&quot;, &quot;InterruptedHomolosine&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;geodesic_graticule&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}}"></globe-map>
+<globe-map width="740" projections="[&quot;Orthographic&quot;, &quot;InterruptedHomolosine&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;geodesic_graticule&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;nt_indicatrice&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;projection_selection&quot;:{&quot;enabled&quot;:true}}"></globe-map>
 
 
   </div>

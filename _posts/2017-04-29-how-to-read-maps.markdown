@@ -3,6 +3,7 @@ layout: post
 title:  "The problem with maps."
 date:   2017-05-16 17:03:39 +0200
 categories: showing
+image: assets/polymer-globe-preview.png
 ---
 
 <style type="text/css">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2017-05-18T17:12:41+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">The problem with maps.</title><link href="http://mjmdavis.com/showing/2017/05/16/how-to-read-maps.html" rel="alternate" type="text/html" title="The problem with maps." /><published>2017-05-16T17:03:39+02:00</published><updated>2017-05-16T17:03:39+02:00</updated><id>http://mjmdavis.com/showing/2017/05/16/how-to-read-maps</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/05/16/how-to-read-maps.html">&lt;style type=&quot;text/css&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2017-05-18T17:17:42+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">The problem with maps.</title><link href="http://mjmdavis.com/showing/2017/05/16/how-to-read-maps.html" rel="alternate" type="text/html" title="The problem with maps." /><published>2017-05-16T17:03:39+02:00</published><updated>2017-05-16T17:03:39+02:00</updated><id>http://mjmdavis.com/showing/2017/05/16/how-to-read-maps</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/05/16/how-to-read-maps.html">&lt;style type=&quot;text/css&quot;&gt;
 .mapwrap {
     display:flex;
     align-items:center;
@@ -154,7 +154,11 @@ It is indeed very Goode; as an equal-area projection, it preserves area across t
 
 &lt;h2 id=&quot;tldr&quot;&gt;TL;DR.&lt;/h2&gt;
 
-&lt;p&gt;Every map you see in 2D is some kind of tradeoff between different types of distortion. It’s not always immediately obvious what tradeoffs are being made because we have been conditioned to seeing the world as a 2D projection of a 3D object. i.e. A globe unrolled onto a piece of paper. This tool helps you explore the Mercator projection to better understand it’s distortion. For a larger version with more projections, and an explanation, read on.&lt;/p&gt;
+&lt;p&gt;Every map you see in 2D is some kind of tradeoff between different types of distortion. It’s not always immediately obvious what tradeoffs are being made because we have been conditioned to seeing the world as a 2D projection of a 3D object. i.e. A globe unrolled onto a piece of paper. This tool helps you explore the Mercator projection to better understand it’s distortion.&lt;/p&gt;
+
+&lt;p&gt;Try dragging either map to see how rotation changes the shape of the map.&lt;/p&gt;
+
+&lt;p&gt;For a larger version with more projections, and an explanation, read on.&lt;/p&gt;
 
 &lt;div class=&quot;mapwrap&quot;&gt;
   &lt;globe-map width=&quot;400&quot; projections=&quot;[&amp;quot;Orthographic&amp;quot;, &amp;quot;Mercator&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;geodesic_graticule&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;nt_indicatrice&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;

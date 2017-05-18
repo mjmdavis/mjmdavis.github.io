@@ -141,4 +141,12 @@ Now, feel free to use this tool to play around and get a better understanding of
 
 <globe-map width='740' projections='["Orthographic", "InterruptedHomolosine"]' config='{"rotation":{"enabled":true, "ui_enabled":true}, "geodesic_graticule":{"enabled":true, "ui_enabled":true}, "nt_indicatrice":{"enabled":true, "ui_enabled":true}, "projection_selection":{"enabled":true}}'></globe-map>
 
+## Source
 
+The source for this blog can be found in my [blog repository](https://github.com/mjmdavis/mjmdavis.github.io){:target="_blank"}, the spinny map thing is a polymer web component which you can reuse. It is also on GitHub in the [polymer-globe repository](https://github.com/mjmdavis/polymer-globe){:target="_blank"}.
+
+Credit to [Mike Bostock](https://bost.ocks.org/mike/){:target="_blank"} for [d3](https://d3js.org/){:target="_blank"}. Specifically for the two blocks incorporating [Versor Dragging for Orthographic](https://bl.ocks.org/mbostock/7ea1dde508cec6d2d95306f92642bc42) and [Mercator](https://bl.ocks.org/mbostock/1e10b76becaa4ea4471262bcae619dae) projections.
+
+Credit to [Jason Davies](https://www.jasondavies.com/){:target="_blank"}, specifically for his [Versor Dragging](https://www.jasondavies.com/maps/rotate/){:target="_blank"} example.
+
+Thanks to [Jörn Hees](https://joernhees.de){:target="_blank"} for reading this several times despite having a PhD to finish.

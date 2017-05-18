@@ -14,8 +14,6 @@ kramdown:
 theme: minima
 gems:
     - jekyll-feed
-      #     - jekyll-assets
-      #
 include:
     - .nojekyll
 exclude:
@@ -23,9 +21,3 @@ exclude:
     - Gemfile.lock
 google_analytics: UA-98313079-1
 
-# assets:
-#     compress:
-#         css: false
-#         js: false
-#     sources:
-#         - _assets/bower

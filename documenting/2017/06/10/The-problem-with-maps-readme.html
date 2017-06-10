@@ -25,14 +25,17 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>mjmdavis.com</title>
+  <title>The problem with maps readme.</title>
 
   
+  <meta property="og:image" content="http://mjmdavis.com/assets/polymer-globe-preview.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  
 
-  <meta name="description" content="A personal webpage.">
+  <meta name="description" content="Summary I created a blog post around a vizualization I created to communicate how map projections distort the true earth. Often, people are unaware of how a ...">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://mjmdavis.com/">
+  <link rel="canonical" href="http://mjmdavis.com/documenting/2017/06/10/The-problem-with-maps-readme.html">
   <link rel="alternate" type="application/rss+xml" title="mjmdavis.com" href="/feed.xml">
   
 
@@ -105,46 +108,81 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
-  
-  
-
-
-  <ul class="post-list">
-    
-    
-    
-    
-      <li>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">The problem with maps readme.</h1>
+    <p class="post-meta">
+      <time datetime="2017-06-10T00:00:00+02:00" itemprop="datePublished">
         
-        <span class="post-meta">May 16, 2017</span>
+        Jun 10, 2017
+      </time>
+      </p>
+  </header>
 
-        <h2>
-          <a class="post-link" href="/showing/2017/05/16/how-to-read-maps.html">The problem with maps.</a>
-        </h2>
-      </li>
-      
-    
-    
-    
-    
-      <li>
-        
-        <span class="post-meta">Apr 29, 2017</span>
+  <div class="post-content" itemprop="articleBody">
+    <h2 id="summary">Summary</h2>
+<p>I created a <a href="http://mjmdavis.com/showing/2017/05/16/how-to-read-maps.html">blog post</a> around a vizualization I created to communicate how map projections distort the true earth. Often, people are unaware of how a visualization presented as a map can distort the truth. I wanted to be able to quickly get a feel for a given projection. It’s also quite interesting and fun to play with the tool.</p>
 
-        <h2>
-          <a class="post-link" href="/showing/2017/04/29/mercator-madness.html">Mercator Madness.</a>
-        </h2>
-      </li>
-      
-    
-  </ul>
+<h2 id="design">Design</h2>
+<p>I wanted to ease people into the concepts and the different representations of the map. I did this by engaging in conversation with the reader. By slowly introducing more and more concepts, we explored the Mercator projection and used it as an example to explain the rationale behind the tool.</p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p>I created the vizualization as a web component. A web component is effectively a custom html tag that operates in isolation from the DOM. This made it easy to reproduce the maps several times across the blog post while keeping the DOM relatively clean.</p>
 
-</div>
+<p>The blog is in fact a <a href="https://jekyllrb.com/">Jekyll</a> blog  hosted on github pages. The source for the <a href="https://github.com/mjmdavis/mjmdavis.github.io">blog post</a> and the <a href="https://github.com/mjmdavis/polymer-globe">web component</a> is all available on my github account.</p>
+
+<p>I spent some time improving the post based on feedback I received. Examples of the effect of the distortion in google maps. Simpler explanations. Improved layout and formatting. Even an AB test :D</p>
+
+<p>The AB test was directed at these two different versions:
+<a href="http://mjmdavis.com/showing/2017/05/16/how-to-read-maps.html">Version A</a>
+<a href="http://mjmdavis.com/showing/2017/05/16/The-problem-with-maps.html">Version B</a></p>
+
+<p>Despite getting about 5k views during the AB test, I was unable to get a clear result.</p>
+
+<h2 id="feedback">Feedback</h2>
+<h3 id="mr-j">Mr. J</h3>
+<ul>
+  <li>Make the beginning of the blog post more interesting. It’s currently a bit dry.</li>
+</ul>
+
+<p>This comment led to the AB test. I tried to make the beginning of the post more exciting and to showcase some interactivity up front. In the end the test was pretty inconclusive. The null hypothesis was probably true.</p>
+
+<h3 id="mrp">Mr.P</h3>
+<ul>
+  <li>It’s broken.</li>
+  <li>I like the writing style. It’s easy to read.</li>
+  <li>Can you show the roll, pitch, yaw of the projection.</li>
+  <li>Doesn’t work on mobile.</li>
+</ul>
+
+<h3 id="msa">Ms.A</h3>
+<ul>
+  <li>I kind of understand it.</li>
+  <li>So, the map really makes things look bigger in the north?</li>
+</ul>
+
+<h3 id="mst">Ms.T</h3>
+<ul>
+  <li>It’s a bit long winded.</li>
+</ul>
+
+<h3 id="feedback-summary">Feedback Summary</h3>
+
+<p>I addressed much of the feedback but there are some things that I still feel could be improved.</p>
+
+<p>The overall feeling that I got from the feedback was that the earlier versions weren’t interactive enough. I added interaction along the way but some users weren’t aware or didn’t get to the interactive bits before giving up.</p>
+
+<p>I could improve the article by highlighting interactivity more obviously, encouraging more exploration of the projections and by engaging the user earlier with more exciting visuals.</p>
+
+<p>As a learning tool, I think it’s pretty good, as a ‘viral blog post’, it needs some work :P.</p>
+
+<h2 id="resources">Resources</h2>
+<p>See end of blog post for Sources.</p>
+
+  </div>
+
+  
+</article>
 
       </div>
     </main>

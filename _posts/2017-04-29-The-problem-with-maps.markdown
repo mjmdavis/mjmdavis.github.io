@@ -28,9 +28,7 @@ Try dragging either map to see how rotation changes the shape of the map.
 
 For a larger version with more projections, and an explanation, read on.
 
-<div class="mapwrap">
 <globe-map width='400' projections='["Orthographic", "Mercator"]' config='{"rotation":{"enabled":true, "ui_enabled":true}, "geodesic_graticule":{"enabled":true, "ui_enabled":true}, "nt_indicatrice":{"enabled":true, "ui_enabled":true}}'></globe-map>
-</div>
 
 ## The World
 The world is round. [Google says so](https://www.google.com/maps/@25.6150528,3.6591736,11928591m/data=!3m1!1e3){:target="_blank"}. The problem is, spheres can be hard to get your head around... Imagine we want to see a map of the whole world. We might try something like this.
@@ -100,7 +98,7 @@ The Equirectangular projection is like dropping the spherical globe into a cylin
 
 Notice that on the Equirectangular map, the height of each circle is the same but the width changes as the map gets more stretched out near the poles. In fact, as you get to a pole, you have stretched a single point out into the entire width of the map!  
 
-To remedy the horizontal stretching, the Mercator Projection stretches the globe out in the vertical direction an equal amount to the stretching in the vertical direction. This is good because it helps preserve the shape of small objects. It's also great if you're a sailor as you can draw a straight line on a Merctor map and if you sail along it, you will maintain a constant heading. Really useful for navigating a ship in the 1600s. In fact, Mercator was in the business of selling maps. He described his map using this projection method as a "new and augmented description of Earth corrected for the use of sailors". Today the Mercator projection is still used to navigate the high seas.
+To remedy the horizontal stretching, the Mercator Projection stretches the globe out in the vertical direction an equal amount. This is good because it helps preserve the shape of small objects. It's also great if you're a sailor as you can draw a straight line on a Merctor map and if you sail along it, you will maintain a constant heading. Really useful for navigating a ship in the 1600s. In fact, Mercator was in the business of selling maps. He described his map using this projection method as a "new and augmented description of Earth corrected for the use of sailors". Today the Mercator projection is still used to navigate the high seas.
 
 You can see the effect of this distortion when using Google Maps. If you move north or south from the equator and stay at the same zoom level, objects will become larger 😯...😮.
 

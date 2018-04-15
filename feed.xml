@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2018-04-15T09:07:03+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">Whose house shall we meet at?</title><link href="http://mjmdavis.com/showing/2017/09/03/where-do-we-all-meet-up.html" rel="alternate" type="text/html" title="Whose house shall we meet at?" /><published>2017-09-03T14:00:00+02:00</published><updated>2017-09-03T14:00:00+02:00</updated><id>http://mjmdavis.com/showing/2017/09/03/where-do-we-all-meet-up</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/09/03/where-do-we-all-meet-up.html">&lt;div class=&quot;jupyter-notebook&quot;&gt;&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2018-04-15T22:20:05+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">Mercator Tiles</title><link href="http://mjmdavis.com/showing/2018/04/15/Mercator-Tiles.html" rel="alternate" type="text/html" title="Mercator Tiles" /><published>2018-04-15T10:03:39+02:00</published><updated>2018-04-15T10:03:39+02:00</updated><id>http://mjmdavis.com/showing/2018/04/15/Mercator-Tiles</id><content type="html" xml:base="http://mjmdavis.com/showing/2018/04/15/Mercator-Tiles.html">&lt;style type=&quot;text/css&quot;&gt;
+.mapwrap {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+&lt;/style&gt;
+
+&lt;link rel=&quot;import&quot; href=&quot;http://mjmdavis.com/assets/bower/globe-map/globe-map.html&quot; /&gt;
+
+&lt;p&gt;To help myself understand how the area of Web Mercator tiles varies across the globe, I extended my &lt;a href=&quot;http://mjmdavis.com/showing/2017/05/16/how-to-read-maps.html&quot;&gt;map visualization&lt;/a&gt;. I find it a helpful reminder of how, despite having equivalent sizes on the mercator map, the tiles are actually far from equally sized.&lt;/p&gt;
+
+&lt;globe-map width=&quot;500&quot; projections=&quot;[&amp;quot;Mercator&amp;quot;, &amp;quot;Orthographic&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;mercator_tiles&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:false}}&quot;&gt;&lt;/globe-map&gt;
+
+&lt;p&gt;This has several implications in the realm of analytics. Web Mercator’s tiling scheme covers the majority of the globe in regular, power of 2 square tiles. It’s fantastically practical. It’s very tempting simply tile a bunch of data into WebMercator and then do analytics on it. If you do this, important not to forget that you’re failing to preserve area.&lt;/p&gt;
+
+&lt;h2 id=&quot;larger-version&quot;&gt;Larger Version&lt;/h2&gt;
+
+&lt;globe-map width=&quot;740&quot; projections=&quot;[&amp;quot;Mercator&amp;quot;, &amp;quot;Orthographic&amp;quot;]&quot; config=&quot;{&amp;quot;rotation&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}, &amp;quot;mercator_tiles&amp;quot;:{&amp;quot;enabled&amp;quot;:true, &amp;quot;ui_enabled&amp;quot;:true}}&quot;&gt;&lt;/globe-map&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Whose house shall we meet at?</title><link href="http://mjmdavis.com/showing/2017/09/03/where-do-we-all-meet-up.html" rel="alternate" type="text/html" title="Whose house shall we meet at?" /><published>2017-09-03T14:00:00+02:00</published><updated>2017-09-03T14:00:00+02:00</updated><id>http://mjmdavis.com/showing/2017/09/03/where-do-we-all-meet-up</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/09/03/where-do-we-all-meet-up.html">&lt;div class=&quot;jupyter-notebook&quot;&gt;&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js&quot;&gt;&lt;/script&gt;
 &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;style type=&quot;text/css&quot;&gt;

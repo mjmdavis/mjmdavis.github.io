@@ -25,14 +25,14 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>mjmdavis.com</title>
+  <title>Mercator Tiles</title>
 
   
 
-  <meta name="description" content="A personal webpage.">
+  <meta name="description" content="">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://mjmdavis.com/">
+  <link rel="canonical" href="http://mjmdavis.com/showing/2018/04/15/Mercator-Tiles.html">
   <link rel="alternate" type="application/rss+xml" title="mjmdavis.com" href="/feed.xml">
   
 
@@ -105,68 +105,44 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Mercator Tiles</h1>
+    <p class="post-meta">
+      <time datetime="2018-04-15T10:03:39+02:00" itemprop="datePublished">
+        
+        Apr 15, 2018
+      </time>
+      </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <style type="text/css">
+.mapwrap {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+</style>
+
+<link rel="import" href="http://mjmdavis.com/assets/bower/globe-map/globe-map.html" />
+
+<p>To help myself understand how the area of Web Mercator tiles varies across the globe, I extended my <a href="http://mjmdavis.com/showing/2017/05/16/how-to-read-maps.html">map visualization</a>. I find it a helpful reminder of how, despite having equivalent sizes on the mercator map, the tiles are actually far from equally sized.</p>
+
+<globe-map width="500" projections="[&quot;Mercator&quot;, &quot;Orthographic&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;mercator_tiles&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:false}}"></globe-map>
+
+<p>This has several implications in the realm of analytics. Web Mercator’s tiling scheme covers the majority of the globe in regular, power of 2 square tiles. It’s fantastically practical. It’s very tempting simply tile a bunch of data into WebMercator and then do analytics on it. If you do this, important not to forget that you’re failing to preserve area.</p>
+
+<h2 id="larger-version">Larger Version</h2>
+
+<globe-map width="740" projections="[&quot;Mercator&quot;, &quot;Orthographic&quot;]" config="{&quot;rotation&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}, &quot;mercator_tiles&quot;:{&quot;enabled&quot;:true, &quot;ui_enabled&quot;:true}}"></globe-map>
+
+  </div>
+
   
-  
-
-
-  <ul class="post-list">
-    
-    
-      <li>
-        
-        <span class="post-meta">Apr 15, 2018</span>
-
-        <h2>
-          <a class="post-link" href="/showing/2018/04/15/Mercator-Tiles.html">Mercator Tiles</a>
-        </h2>
-      </li>
-      
-    
-    
-      <li>
-        
-        <span class="post-meta">Sep 3, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/showing/2017/09/03/where-do-we-all-meet-up.html">Whose house shall we meet at?</a>
-        </h2>
-      </li>
-      
-    
-    
-    
-    
-      <li>
-        
-        <span class="post-meta">May 16, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/showing/2017/05/16/how-to-read-maps.html">The problem with maps.</a>
-        </h2>
-      </li>
-      
-    
-    
-    
-    
-      <li>
-        
-        <span class="post-meta">Apr 29, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/showing/2017/04/29/mercator-madness.html">Mercator Madness.</a>
-        </h2>
-      </li>
-      
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
-</div>
+</article>
 
       </div>
     </main>

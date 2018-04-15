@@ -17,8 +17,11 @@
   ],
   "dependencies": {
     "polymer": "^1.9.1",
-    "d3": "^4.8.0",
+    "d3": "^5.0.0",
     "globe-map": "../polymer_globe/",
     "topojson": "^3.0.0"
+  },
+  "resolutions": {
+    "topojson": "^2.0"
   }
 }

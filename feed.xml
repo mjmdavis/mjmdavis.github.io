@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2017-09-21T11:37:17+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">Whose house shall we meet at?</title><link href="http://mjmdavis.com/showing/2017/09/03/where-do-we-all-meet-up.html" rel="alternate" type="text/html" title="Whose house shall we meet at?" /><published>2017-09-03T14:00:00+02:00</published><updated>2017-09-03T14:00:00+02:00</updated><id>http://mjmdavis.com/showing/2017/09/03/where-do-we-all-meet-up</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/09/03/where-do-we-all-meet-up.html">&lt;div class=&quot;jupyter-notebook&quot;&gt;&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mjmdavis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mjmdavis.com/" rel="alternate" type="text/html" /><updated>2018-04-15T09:07:03+02:00</updated><id>http://mjmdavis.com/</id><title type="html">mjmdavis.com</title><subtitle>A personal webpage.</subtitle><entry><title type="html">Whose house shall we meet at?</title><link href="http://mjmdavis.com/showing/2017/09/03/where-do-we-all-meet-up.html" rel="alternate" type="text/html" title="Whose house shall we meet at?" /><published>2017-09-03T14:00:00+02:00</published><updated>2017-09-03T14:00:00+02:00</updated><id>http://mjmdavis.com/showing/2017/09/03/where-do-we-all-meet-up</id><content type="html" xml:base="http://mjmdavis.com/showing/2017/09/03/where-do-we-all-meet-up.html">&lt;div class=&quot;jupyter-notebook&quot;&gt;&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js&quot;&gt;&lt;/script&gt;
 &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;style type=&quot;text/css&quot;&gt;
@@ -11723,9 +11723,7 @@ body {
 div#notebook {
   overflow: visible;
   border-top: none;
-}
-
-@media print {
+}@media print {
   div.cell {
     display: block;
     page-break-inside: avoid;
@@ -11746,7 +11744,7 @@ div#notebook {
 
 &lt;!-- Loading mathjax macro --&gt;
 &lt;!-- Load mathjax --&gt;
-    &lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML&quot;&gt;&lt;/script&gt;
     &lt;!-- MathJax configuration --&gt;
     &lt;script type=&quot;text/x-mathjax-config&quot;&gt;
     MathJax.Hub.Config({
@@ -11770,8 +11768,7 @@ div#notebook {
   &lt;div tabindex=&quot;-1&quot; id=&quot;notebook&quot; class=&quot;border-box-sizing&quot;&gt;
     &lt;div class=&quot;container&quot; id=&quot;notebook-container&quot;&gt;
 
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -11783,8 +11780,7 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -11792,8 +11788,7 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -11817,8 +11812,7 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -11856,7 +11850,9 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[2]:&lt;/div&gt;
+
 
 
 &lt;div class=&quot;output_html rendered_html output_subarea output_execute_result&quot;&gt;
@@ -11939,8 +11935,7 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -11964,8 +11959,7 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -11992,7 +11986,9 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 &lt;div class=&quot;output_subarea output_stream output_stdout output_text&quot;&gt;
 &lt;pre&gt;········
@@ -12004,8 +12000,7 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -12033,8 +12028,7 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -12062,7 +12056,9 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[6]:&lt;/div&gt;
+
 
 
 
@@ -12132,8 +12128,7 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -12170,7 +12165,9 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[7]:&lt;/div&gt;
+
 
 
 &lt;div class=&quot;output_html rendered_html output_subarea output_execute_result&quot;&gt;
@@ -12238,8 +12235,7 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -12267,8 +12263,7 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -12300,7 +12295,9 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[9]:&lt;/div&gt;
+
 
 
 &lt;div class=&quot;output_html rendered_html output_subarea output_execute_result&quot;&gt;
@@ -12353,8 +12350,7 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -12404,7 +12400,9 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[11]:&lt;/div&gt;
+
 
 
 
@@ -12415,7 +12413,9 @@ Google Maps has a nice API that returns a distance and time matrix. So we'll use
 &lt;/div&gt;
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 
 
@@ -12660,8 +12660,7 @@ QURExyURRER03P8D33dVqY/4v6UAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -12669,8 +12668,7 @@ QURExyURRER03P8D33dVqY/4v6UAAAAASUVORK5CYII=
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -12679,8 +12677,7 @@ QURExyURRER03P8D33dVqY/4v6UAAAAASUVORK5CYII=
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -12776,8 +12773,7 @@ QURExyURRER03P8D33dVqY/4v6UAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -12803,7 +12799,9 @@ QURExyURRER03P8D33dVqY/4v6UAAAAASUVORK5CYII=
 
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 &lt;div class=&quot;output_subarea output_stream output_stdout output_text&quot;&gt;
 &lt;pre&gt;Mapping found addresses:
@@ -12816,7 +12814,9 @@ QURExyURRER03P8D33dVqY/4v6UAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 
 &lt;div class=&quot;output_html rendered_html output_subarea &quot;&gt;
@@ -12881,7 +12881,9 @@ QURExyURRER03P8D33dVqY/4v6UAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 
 &lt;div class=&quot;output_html rendered_html output_subarea &quot;&gt;
@@ -12931,7 +12933,9 @@ QURExyURRER03P8D33dVqY/4v6UAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 
 
@@ -13176,8 +13180,7 @@ QURExyURRER03P8D33dVqY/4v6UAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -13203,7 +13206,9 @@ QURExyURRER03P8D33dVqY/4v6UAAAAASUVORK5CYII=
 
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 &lt;div class=&quot;output_subarea output_stream output_stdout output_text&quot;&gt;
 &lt;pre&gt;Mapping found addresses:
@@ -13216,7 +13221,9 @@ QURExyURRER03P8D33dVqY/4v6UAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 
 &lt;div class=&quot;output_html rendered_html output_subarea &quot;&gt;
@@ -13281,7 +13288,9 @@ QURExyURRER03P8D33dVqY/4v6UAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 
 &lt;div class=&quot;output_html rendered_html output_subarea &quot;&gt;
@@ -13331,7 +13340,9 @@ QURExyURRER03P8D33dVqY/4v6UAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 
 
@@ -13576,8 +13587,7 @@ iSAioueSCCIiei6JICKi55IIIiJ67v8DsI1V8e1VyIwAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -13586,8 +13596,7 @@ iSAioueSCCIiei6JICKi55IIIiJ67v8DsI1V8e1VyIwAAAAASUVORK5CYII=
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
@@ -13620,7 +13629,9 @@ iSAioueSCCIiei6JICKi55IIIiJ67v8DsI1V8e1VyIwAAAAASUVORK5CYII=
 
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[16]:&lt;/div&gt;
+
 
 
 &lt;div class=&quot;output_html rendered_html output_subarea output_execute_result&quot;&gt;
@@ -13697,7 +13708,9 @@ iSAioueSCCIiei6JICKi55IIIiJ67v8DsI1V8e1VyIwAAAAASUVORK5CYII=
 
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 &lt;div class=&quot;output_subarea output_stream output_stdout output_text&quot;&gt;
 &lt;pre&gt;Mapping found addresses:
@@ -13710,7 +13723,9 @@ iSAioueSCCIiei6JICKi55IIIiJ67v8DsI1V8e1VyIwAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 
 &lt;div class=&quot;output_html rendered_html output_subarea &quot;&gt;
@@ -13775,7 +13790,9 @@ iSAioueSCCIiei6JICKi55IIIiJ67v8DsI1V8e1VyIwAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 
 &lt;div class=&quot;output_html rendered_html output_subarea &quot;&gt;
@@ -13825,7 +13842,9 @@ iSAioueSCCIiei6JICKi55IIIiJ67v8DsI1V8e1VyIwAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;div class=&quot;output_area&quot;&gt;
+
 &lt;div class=&quot;prompt&quot;&gt;&lt;/div&gt;
+
 
 
 
@@ -14114,8 +14133,7 @@ cIMAAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;
-&lt;div class=&quot;prompt input_prompt&quot;&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;prompt input_prompt&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;

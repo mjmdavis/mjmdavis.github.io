@@ -7,3 +7,6 @@ _site
 .asset-cache
 assets
 .idea
+*.un~
+.DS_Store
+.ipynb_checkpoints

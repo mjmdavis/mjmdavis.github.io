@@ -16,7 +16,7 @@ image: assets/polymer-globe-preview.png
 }
 </style>
 
-<link rel="import" href="{{ site.url }}/assets/bower/globe-map/globe-map.html">
+<link rel="import" href="/assets/bower/globe-map/globe-map.html">
 
 [Mandatory Accompanying Playlist](https://open.spotify.com/user/pingbat/playlist/3ILYt5u8hdZ1d5H1lNZSuN){:target="_blank"}
 

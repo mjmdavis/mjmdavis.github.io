@@ -5,7 +5,7 @@ date:   2017-05-14 17:03:39 +0200
 categories: showing
 ---
 
-<link rel="import" href="{{ site.url }}/assets/bower/globe-map/globe-map.html">
+<link rel="import" href="/assets/bower/globe-map/globe-map.html">
 
 ## Drag me
 <globe-map width='740' projections='["Orthographic", "InterruptedHomolosine"]' config='{"rotation":{"enabled":true, "ui_enabled":true}, "geodesic_graticule":{"enabled":true, "ui_enabled":false}, "nt_indicatrice":{"enabled":true, "ui_enabled":false}}'></globe-map>

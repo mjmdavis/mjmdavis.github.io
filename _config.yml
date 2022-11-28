@@ -3,7 +3,7 @@ title: mjmdavis.com
 description: A personal webpage.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mjmdavis.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mjmdavis.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mjmdavis
 github_username: mjmdavis
 

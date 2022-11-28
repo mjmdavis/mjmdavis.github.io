@@ -15,9 +15,9 @@ hidden: false
 }
 </style>
 
-<link rel="import" href="{{ site.url }}/assets/bower/globe-map/globe-map.html">
+<link rel="import" href="/assets/bower/globe-map/globe-map.html">
 
-To help myself understand how the area of Web Mercator tiles varies across the globe, I extended my [map visualization]({{ site.url }}/showing/2017/05/16/how-to-read-maps.html). I find it a helpful reminder of how, despite having equivalent sizes on the mercator map, the tiles are actually far from equally sized.
+To help myself understand how the area of Web Mercator tiles varies across the globe, I extended my [map visualization](/showing/2017/05/16/how-to-read-maps.html). I find it a helpful reminder of how, despite having equivalent sizes on the mercator map, the tiles are actually far from equally sized.
 
 <globe-map width='500' projections='["Mercator", "Orthographic"]' config='{"rotation":{"enabled":true, "ui_enabled":true}, "mercator_tiles":{"enabled":true, "ui_enabled":false}}'></globe-map>
 

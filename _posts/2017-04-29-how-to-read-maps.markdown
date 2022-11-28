@@ -15,7 +15,7 @@ image: assets/polymer-globe-preview.png
 }
 </style>
 
-<link rel="import" href="{{ site.url }}/assets/bower/globe-map/globe-map.html">
+<link rel="import" href="/assets/bower/globe-map/globe-map.html">
 
 [Mandatory Accompanying Playlist](https://open.spotify.com/user/pingbat/playlist/3ILYt5u8hdZ1d5H1lNZSuN){:target="_blank"}
 
@@ -105,7 +105,7 @@ Below are embedded maps of Singapore and Anchorage, Alaska at the same zoom leve
 </iframe>
 <br/>
 
-In fact, this effect leads to [Infinite distortion]({{ site.url }}/showing/2017/04/29/mercator-madness.html){:target="_blank"}. Yes, the reason you couldn't see the circle on the poles before is that they are cut off! The infinite distortion means we have an infinitely large map. Existential questions aside, we can thus reason that all Mercator maps are trimmed.
+In fact, this effect leads to [Infinite distortion](/showing/2017/04/29/mercator-madness.html){:target="_blank"}. Yes, the reason you couldn't see the circle on the poles before is that they are cut off! The infinite distortion means we have an infinitely large map. Existential questions aside, we can thus reason that all Mercator maps are trimmed.
 
 ## TL;DR.
 

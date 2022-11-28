@@ -8,7 +8,7 @@ image: assets/polymer-globe-preview.png
 ---
 
 ## Summary
-I created a [blog post]({{ site.url }}/showing/2017/05/16/how-to-read-maps.html) around a vizualization I created to communicate how map projections distort the true earth. Often, people are unaware of how a visualization presented as a map can distort the truth. I wanted to be able to quickly get a feel for a given projection. It's also quite interesting and fun to play with the tool.
+I created a [blog post](/showing/2017/05/16/how-to-read-maps.html) around a vizualization I created to communicate how map projections distort the true earth. Often, people are unaware of how a visualization presented as a map can distort the truth. I wanted to be able to quickly get a feel for a given projection. It's also quite interesting and fun to play with the tool.
 
 ## Design
 I wanted to ease people into the concepts and the different representations of the map. I did this by engaging in conversation with the reader. By slowly introducing more and more concepts, we explored the Mercator projection and used it as an example to explain the rationale behind the tool.
@@ -20,8 +20,8 @@ The blog is in fact a [Jekyll](https://jekyllrb.com/) blog  hosted on github pag
 I spent some time improving the post based on feedback I received. Examples of the effect of the distortion in google maps. Simpler explanations. Improved layout and formatting. Even an AB test :D
 
 The AB test was directed at these two different versions:
-[Version A]({{ site.url }}/showing/2017/05/16/how-to-read-maps.html)
-[Version B]({{ site.url }}/showing/2017/05/16/The-problem-with-maps.html)
+[Version A](/showing/2017/05/16/how-to-read-maps.html)
+[Version B](/showing/2017/05/16/The-problem-with-maps.html)
 
 Despite getting about 5k views during the AB test, I was unable to get a clear result.
 
